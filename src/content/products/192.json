@@ -1,0 +1,52 @@
+{
+  "id": "192",
+  "urlSlug": "vskf-150t",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/podovaya-telezhka/vskf-150t",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/podovaya-telezhka/vskf-150t",
+  "title": "VSKF 150T",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "podovaya-telezhka",
+  "image": "/uploads/catalog/podovaya-telezhka.jpg",
+  "specs": [
+    {
+      "label": "Количество поддонов",
+      "value": "12 шт."
+    },
+    {
+      "label": "Масса поддона",
+      "value": "13 кг"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "170 (130x40) мм"
+    },
+    {
+      "label": "Размеры поддонов",
+      "value": "600x2500x40 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "600 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2500 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1900 мм"
+    },
+    {
+      "label": "Масса тележки",
+      "value": "(156+60):216 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKF 150T",
+    "description": "Количество поддонов: 12 шт.; Масса поддона: 13 кг",
+    "ogImage": "/uploads/catalog/podovaya-telezhka.jpg"
+  }
+}

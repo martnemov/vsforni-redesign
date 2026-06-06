@@ -1,0 +1,56 @@
+{
+  "id": "150",
+  "urlSlug": "vscu-10",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/ustanovka-mikroklimata/vscu-10",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/ustanovka-mikroklimata/vscu-10",
+  "title": "VSCU 10",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "ustanovka-mikroklimata",
+  "image": "/uploads/catalog/ustanovka-mikroklimata.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "10 м3/ч"
+    },
+    {
+      "label": "Относительная влажность",
+      "value": "60 / 90 %"
+    },
+    {
+      "label": "Рабочая температура",
+      "value": "0 - 50 C°"
+    },
+    {
+      "label": "Водозабор",
+      "value": "1.2 дюйм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "550 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "150 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1500 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "6,5 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "50 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSCU 10",
+    "description": "Производительность: 10 м3/ч; Относительная влажность: 60 / 90 %",
+    "ogImage": "/uploads/catalog/ustanovka-mikroklimata.jpg"
+  }
+}

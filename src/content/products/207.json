@@ -1,0 +1,56 @@
+{
+  "id": "207",
+  "urlSlug": "vskn-2p",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-2p",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-2p",
+  "title": "VSKN-2P",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "besstresovyij-testodelitel",
+  "image": "/uploads/media/izobrazhenie-whatsapp-2024-08-29-v-11.19.58_cfa0a5d6.jpg",
+  "specs": [
+    {
+      "label": "Диапазон деления",
+      "value": "50-250 гр"
+    },
+    {
+      "label": "Производительность",
+      "value": "3800 шт/час"
+    },
+    {
+      "label": "Кол-во поршней",
+      "value": "2 шт"
+    },
+    {
+      "label": "Эл. мощность",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "1,5 кВт"
+    },
+    {
+      "label": "Ширина",
+      "value": "880 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1200 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1500 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "420 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKN-2P",
+    "description": "Диапазон деления: 50-250 гр; Производительность: 3800 шт/час",
+    "ogImage": "/uploads/media/izobrazhenie-whatsapp-2024-08-29-v-11.19.58_cfa0a5d6.jpg"
+  }
+}

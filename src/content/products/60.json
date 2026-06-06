@@ -1,0 +1,56 @@
+{
+  "id": "60",
+  "urlSlug": "vscr-2000",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel/vscr-2000",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel/vscr-2000",
+  "title": "VSCR 2000",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testookruglitel",
+  "image": "/uploads/catalog/testookruglitel.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "2000 шт./ч"
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "50 - 200, 100 - 600, 200 - 1000 г"
+    },
+    {
+      "label": "Высота теста входа (H1)",
+      "value": "850 мм"
+    },
+    {
+      "label": "Высота выхода теста (H2)",
+      "value": "940 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "915 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1000 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1520 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1,1 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "210 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSCR 2000",
+    "description": "Производительность: 2000 шт./ч; Масса тестовых заготовок: 50 - 200, 100 - 600, 200 - 1000 г",
+    "ogImage": "/uploads/catalog/testookruglitel.jpg"
+  }
+}

@@ -1,0 +1,95 @@
+---
+export const prerender = true;
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/ui/Breadcrumbs.astro';
+import { useTranslations, getLang, localizeUrl, plural as plr } from '../../../i18n';
+import { groupUrl, mediaUrl } from '../../../lib/utils';
+
+export async function getStaticPaths() {
+  const categories = await getCollection('categories');
+  const groups = await getCollection('groups');
+  return categories.map((cat: CollectionEntry<'categories'>) => ({
+    params: { category: cat.data.urlSlug },
+    props: {
+      cat,
+      groups: groups.filter((g: CollectionEntry<'groups'>) => g.data.categorySlug === cat.data.urlSlug),
+    },
+  }));
+}
+
+interface Props {
+  cat: CollectionEntry<'categories'>;
+  groups: CollectionEntry<'groups'>[];
+}
+const { cat, groups } = Astro.props;
+const { category } = Astro.params;
+const lang = getLang(Astro.currentLocale);
+const t = useTranslations(lang);
+
+const breadcrumbs = [
+  { label: t.breadcrumbHome, href: localizeUrl('/', lang) },
+  { label: t.catalog, href: localizeUrl('/katalog-oborudovaniya-vs-forni/', lang) },
+  { label: cat.data.title },
+];
+
+const pageTitle = cat.data.title;
+const description = `${cat.data.title} — каталог оборудования VS FORNI. ${cat.data.groupCount} групп оборудования.`;
+const catOgImage = groups.find((g: CollectionEntry<'groups'>) => g.data.categorySlug === cat.data.urlSlug)?.data.image;
+---
+<BaseLayout title={pageTitle} description={description} ogImage={catOgImage ? mediaUrl(catOgImage) : undefined}>
+  <main>
+    <section class="phero">
+      <div class="container">
+        <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
+        <span class="kicker">{t.catalog}</span>
+        <h1>{cat.data.title}</h1>
+        <div class="phero__meta"><span><b>{cat.data.groupCount}</b> {t.metaGroups}</span></div>
+      </div>
+    </section>
+
+    <section class="catpage">
+      <div class="container">
+        <div class="groups-grid">
+          {groups.map((grp: CollectionEntry<'groups'>) => (
+            <a href={localizeUrl(groupUrl(category, grp.data.urlSlug), lang)} class="group-card">
+              <div class="group-card__img">
+                {grp.data.image && (
+                  <img src={mediaUrl(grp.data.image)} alt={grp.data.title} loading="lazy" decoding="async" width="400" height="280" />
+                )}
+              </div>
+              <div class="group-card__body">
+                <h2 class="group-card__title">{grp.data.title}</h2>
+                <div class="group-card__foot">
+                  <span class="count">{grp.data.productCount} {plr(lang, grp.data.productCount, ['модель','модели','моделей'], ['model','models'])}</span>
+                  <span class="group-card__more">{t.open} →</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
+  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
+  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
+  .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
+  .phero__meta { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); margin-top: var(--sp-4); }
+  .phero__meta b { color: var(--accent-text); }
+
+  .groups-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--sp-5); }
+  .group-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition); }
+  .group-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: var(--copper-200); }
+  .group-card__img { aspect-ratio: 16/11; overflow: hidden; background: linear-gradient(135deg, var(--paper-2), var(--copper-50)); }
+  .group-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+  .group-card:hover .group-card__img img { transform: scale(1.04); }
+  .group-card__body { padding: var(--sp-4) var(--sp-5); display: flex; flex-direction: column; gap: var(--sp-3); flex: 1; }
+  .group-card__title { font-size: var(--font-lg); }
+  .group-card__foot { margin-top: auto; padding-top: var(--sp-3); border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; }
+  .count { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); }
+  .group-card__more { font-size: var(--font-sm); font-weight: 600; color: var(--accent-text); }
+</style>

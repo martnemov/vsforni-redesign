@@ -1,0 +1,56 @@
+{
+  "id": "97",
+  "urlSlug": "vssp-40",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/spiralnyij-testomes-so-staczionarnoj-dezhoj/vssp-40",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/spiralnyij-testomes-so-staczionarnoj-dezhoj/vssp-40",
+  "title": "VSSP 40",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "spiralnyij-testomes-so-staczionarnoj-dezhoj",
+  "image": "/uploads/catalog/spiralnyij-testomes-so-staczionarnoj-dezhoj.jpg",
+  "specs": [
+    {
+      "label": "Макс. кол-во муки",
+      "value": "25 кг"
+    },
+    {
+      "label": "Макс. кол-во теста",
+      "value": "3.40 кг"
+    },
+    {
+      "label": "Размеры  дежи  (øxh)",
+      "value": "530x300 мм"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "66 л"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "560 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1025 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1100 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1,5-2,5 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "270 мм"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSSP 40",
+    "description": "Макс. кол-во муки: 25 кг; Макс. кол-во теста: 3.40 кг",
+    "ogImage": "/uploads/catalog/spiralnyij-testomes-so-staczionarnoj-dezhoj.jpg"
+  }
+}

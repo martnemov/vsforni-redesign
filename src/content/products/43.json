@@ -1,0 +1,60 @@
+{
+  "id": "43",
+  "urlSlug": "vsvd-4000",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/vsvd-4000",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/vsvd-4000",
+  "title": "VSVD 4000",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testodelitel",
+  "image": "/uploads/catalog/testodelitel.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "3600 шт./ч"
+    },
+    {
+      "label": "Масса тестовых заготовок / Диаметр поршня",
+      "value": "50 - 200 / ø 70 г/ мм"
+    },
+    {
+      "label": "Количество поршней",
+      "value": "2 шт."
+    },
+    {
+      "label": "Емкость бункер",
+      "value": "60 кг"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "665 мм"
+    },
+    {
+      "label": "Длина (L / L1)",
+      "value": "1400 / 1780 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1520 мм"
+    },
+    {
+      "label": "Высота выхода теста (H1)",
+      "value": "960 ± 80 / 95 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "2,2 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "415 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSVD 4000",
+    "description": "Производительность: 3600 шт./ч; Масса тестовых заготовок / Диаметр поршня: 50 - 200 / ø 70 г/ мм",
+    "ogImage": "/uploads/catalog/testodelitel.jpg"
+  }
+}

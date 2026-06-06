@@ -1,0 +1,84 @@
+---
+import '../styles/fonts.css';
+import '../styles/tokens.css';
+import '../styles/reset.css';
+import '../styles/global.css';
+import { useTranslations, getLang, localizeUrl } from '../i18n';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import YandexMetrika from '../components/YandexMetrika.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  noindex?: boolean;
+}
+
+const lang = getLang(Astro.currentLocale);
+const t = useTranslations(lang);
+const {
+  title,
+  description = t.siteDescription,
+  canonical,
+  ogImage,
+  noindex = false,
+} = Astro.props;
+
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
+const ogImageUrl = ogImage
+  ? new URL(ogImage, Astro.site).href
+  : new URL('/uploads/img/main-slider.jpg', Astro.site).href;
+
+const fullTitle = title === t.siteName ? title : `${title} — ${t.siteName}`;
+const barePath = Astro.url.pathname.replace(/^\/en(?=\/|$)/, '') || '/';
+const ruAlt = new URL(barePath, Astro.site).href;
+const enAlt = new URL(localizeUrl(barePath, 'en'), Astro.site).href;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:locale" content={lang === "en" ? "en_US" : "ru_RU"} />
+    <link rel="alternate" hreflang="ru" href={ruAlt} />
+    <link rel="alternate" hreflang="en" href={enAlt} />
+    <link rel="alternate" hreflang="x-default" href={ruAlt} />
+    <meta property="og:site_name" content={t.siteName} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
+
+    <!-- Preconnect to external services -->
+    <link rel="preconnect" href="https://mc.yandex.ru" />
+    <link rel="dns-prefetch" href="https://mc.yandex.ru" />
+    <link rel="preconnect" href="https://smartcaptcha.yandexcloud.net" />
+    <link rel="dns-prefetch" href="https://smartcaptcha.yandexcloud.net" />
+
+    <!-- Preload critical fonts (Onest, cyrillic: body 400 + headings 600) -->
+    <link rel="preload" href="/fonts/onest-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/onest-cyrillic-600.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+    <YandexMetrika />
+  </body>
+</html>

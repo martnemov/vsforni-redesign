@@ -1,0 +1,52 @@
+{
+  "id": "120",
+  "urlSlug": "vssm-30",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-30",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-30",
+  "title": "VSSM 30",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "nastolnaya-testoraskatka",
+  "image": "/uploads/catalog/nastolnaya-testoraskatka.jpg",
+  "specs": [
+    {
+      "label": "Диаметртеста",
+      "value": "19 - 29 см"
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "100-2000 г"
+    },
+    {
+      "label": "Ширина",
+      "value": "385 мм"
+    },
+    {
+      "label": "Длина",
+      "value": "410 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "540 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,37 кВт"
+    },
+    {
+      "label": "Напряжение*",
+      "value": "220 / 50 В / Гц"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "32 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSSM 30",
+    "description": "Диаметртеста: 19 - 29 см; Масса тестовых заготовок: 100-2000 г",
+    "ogImage": "/uploads/catalog/nastolnaya-testoraskatka.jpg"
+  }
+}

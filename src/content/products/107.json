@@ -1,0 +1,60 @@
+{
+  "id": "107",
+  "urlSlug": "vsp-80",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/planetarnyij-mikser-(master)/vsp-80",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/planetarnyij-mikser-(master)/vsp-80",
+  "title": "VSP 80",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "planetarnyij-mikser-(master)",
+  "image": "/uploads/catalog/planetarnyij-mikser-master.jpg",
+  "specs": [
+    {
+      "label": "Емкость дежи",
+      "value": "80 л"
+    },
+    {
+      "label": "Вращения двигателя",
+      "value": "55-100-120 об/мин"
+    },
+    {
+      "label": "Вращения насадки",
+      "value": "140-280-520 об/мин"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "850 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1050 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1600 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "810 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1,5 - 2 - 2,5 кВт"
+    },
+    {
+      "label": "С вариатором",
+      "value": "4 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "265 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSP 80",
+    "description": "Емкость дежи: 80 л; Вращения двигателя: 55-100-120 об/мин",
+    "ogImage": "/uploads/catalog/planetarnyij-mikser-master.jpg"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "65",
+  "urlSlug": "vsip-328",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-328",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-328",
+  "title": "VSIP 328",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "shkaf-predvaritelnoj-rasstojki",
+  "image": "/uploads/catalog/shkaf-predvaritelnoj-rasstojki.jpg",
+  "specs": [
+    {
+      "label": "Количество ячеек",
+      "value": "328 шт."
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "100 - 1500 г"
+    },
+    {
+      "label": "Время расстойки",
+      "value": "10 - 12 минут"
+    },
+    {
+      "label": "Производительность",
+      "value": "1800 - 2000 шт./ч."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "2000 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1570 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2530 мм"
+    },
+    {
+      "label": "Высота теста входа (H1)",
+      "value": "930 ± 20 мм"
+    },
+    {
+      "label": "Высота выхода теста (H2)",
+      "value": "1230 ± 100 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,75 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "630 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSIP 328",
+    "description": "Количество ячеек: 328 шт.; Масса тестовых заготовок: 100 - 1500 г",
+    "ogImage": "/uploads/catalog/shkaf-predvaritelnoj-rasstojki.jpg"
+  }
+}

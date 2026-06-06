@@ -1,0 +1,54 @@
+---
+import { useTranslations, getLang } from '../../i18n';
+
+interface Spec { label: string; value: string; }
+interface Props { specs: Spec[]; }
+
+const { specs } = Astro.props;
+const t = useTranslations(getLang(Astro.currentLocale));
+const withValue = specs.filter((s) => s.value);
+const notes = specs.filter((s) => !s.value);
+---
+{specs.length > 0 ? (
+  <div class="specs">
+    <h2 class="specs__heading">{t.specifications}</h2>
+    <button class="specs__pdf" type="button" disabled aria-disabled="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+      {t.pdfSpec}
+      <span class="specs__soon">{t.soon}</span>
+    </button>
+    {withValue.length > 0 && (
+      <dl class="specs__grid">
+        {withValue.map((s) => (
+          <div class="specs__row">
+            <dt>{s.label}</dt>
+            <dd>{s.value}</dd>
+          </div>
+        ))}
+      </dl>
+    )}
+    {notes.length > 0 && (
+      <ul class="specs__notes">
+        {notes.map((s) => <li>{s.label}</li>)}
+      </ul>
+    )}
+  </div>
+) : (
+  <p class="specs__empty">{t.noSpecs}</p>
+)}
+
+<style>
+  .specs { margin-block: var(--sp-8); }
+  .specs__heading { font-size: var(--font-xl); margin-bottom: var(--sp-4); }
+  .specs__pdf { display: inline-flex; align-items: center; gap: .6em; font-family: var(--font-sans); font-weight: 600; font-size: var(--font-sm); color: var(--accent-text); background: transparent; border: 1px solid var(--copper-200); border-radius: var(--radius-md); padding: .7em 1.2em; margin-bottom: var(--sp-5); cursor: not-allowed; }
+  .specs__pdf svg { width: 1.05em; height: 1.05em; }
+  .specs__soon { font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .1em; background: var(--copper-50); color: var(--accent-text); padding: .3em .6em; border-radius: var(--radius-sm); }
+  .specs__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 clamp(1.5rem, 4vw, 3rem); }
+  .specs__row { display: flex; justify-content: space-between; gap: var(--sp-4); padding: var(--sp-3) 0; border-bottom: 1px solid var(--color-border); }
+  .specs__row dt { color: var(--color-text-muted); font-size: var(--font-sm); }
+  .specs__row dd { color: var(--ink-900); font-weight: 500; font-size: var(--font-sm); text-align: right; font-family: var(--font-mono); margin: 0; }
+  .specs__notes { margin-top: var(--sp-4); padding-left: var(--sp-5); font-size: var(--font-sm); color: var(--color-text-muted); list-style: disc; }
+  .specs__notes li { margin-bottom: var(--sp-2); }
+  .specs__empty { color: var(--color-text-muted); font-style: italic; }
+  @media (max-width: 680px) { .specs__grid { grid-template-columns: 1fr; } }
+</style>

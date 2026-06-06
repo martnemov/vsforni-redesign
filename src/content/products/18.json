@@ -1,0 +1,92 @@
+{
+  "id": "18",
+  "urlSlug": "vsdf-200",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/rotaczionnaya-pech/vsdf-200",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/rotaczionnaya-pech/vsdf-200",
+  "title": "VSDF 200",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "rotaczionnaya-pech",
+  "image": "/uploads/catalog/rotaczionnaya-pech-thumb.jpg",
+  "specs": [
+    {
+      "label": "Производительность* (хлеб/8 часов)",
+      "value": "5000 шт."
+    },
+    {
+      "label": "Площадь выпечки",
+      "value": "8 - 16 м2"
+    },
+    {
+      "label": "Количество противней",
+      "value": "10 - 20 шт."
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "160 - 80 мм"
+    },
+    {
+      "label": "Размеры противня",
+      "value": "80x100, 75x104, 74x98 см"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1900 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "2250 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2700 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2500 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3.8 кВт"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "70000 ккал/ч"
+    },
+    {
+      "label": "Макс. температура",
+      "value": "350 °C"
+    },
+    {
+      "label": "Давление газа / Рабочее давление",
+      "value": "300 / 50 мбар"
+    },
+    {
+      "label": "Электрическая мощность для электрической модели",
+      "value": "70 кВт"
+    },
+    {
+      "label": "Источник энергии",
+      "value": ""
+    },
+    {
+      "label": "Масса печи",
+      "value": "2560 кг"
+    },
+    {
+      "label": "Система управления",
+      "value": ""
+    },
+    {
+      "label": "Энергопотребление (максимально)**",
+      "value": "8; 8,4; 6,8 СНГ (л/ ч)"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDF 200",
+    "description": "Производительность* (хлеб/8 часов): 5000 шт.; Площадь выпечки: 8 - 16 м2",
+    "ogImage": "/uploads/catalog/rotaczionnaya-pech-thumb.jpg"
+  }
+}

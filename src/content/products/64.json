@@ -1,0 +1,64 @@
+{
+  "id": "64",
+  "urlSlug": "vsip-240",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-240",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-240",
+  "title": "VSIP 240",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "shkaf-predvaritelnoj-rasstojki",
+  "image": "/uploads/catalog/shkaf-predvaritelnoj-rasstojki.jpg",
+  "specs": [
+    {
+      "label": "Количество ячеек",
+      "value": "240 шт."
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "100 - 1500 г"
+    },
+    {
+      "label": "Время расстойки",
+      "value": "7 - 11 минут"
+    },
+    {
+      "label": "Производительность",
+      "value": "1800 - 2000 шт./ч."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "2000 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1570 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2200 мм"
+    },
+    {
+      "label": "Высота теста входа (H1)",
+      "value": "930 ± 20 мм"
+    },
+    {
+      "label": "Высота выхода теста (H2)",
+      "value": "1150 ± 100 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,37 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "590 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSIP 240",
+    "description": "Количество ячеек: 240 шт.; Масса тестовых заготовок: 100 - 1500 г",
+    "ogImage": "/uploads/catalog/shkaf-predvaritelnoj-rasstojki.jpg"
+  }
+}

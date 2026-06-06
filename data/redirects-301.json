@@ -1,0 +1,286 @@
+[
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/vsvd-4000",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/vsvd-4000"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/vsvd-2000",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/vsvd-2000"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-1p",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-1p"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-2p",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-2p"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-3p",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-3p"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-4p",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-4p"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/vsf-kym",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/vsf-kym"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-1",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-1"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-2",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-2"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-3",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-3"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-4",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-4"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-5",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-5"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel-s-transporternoj-lentoj/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel-s-transporternoj-lentoj/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel-s-transporternoj-lentoj/vskn-800",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel-s-transporternoj-lentoj/vskn-800"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel/vscr-2000",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel/vscr-2000"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/eksczentrikovyij-testookruglitel/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/eksczentrikovyij-testookruglitel/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/eksczentrikovyij-testookruglitel/vsf-t-2000",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/eksczentrikovyij-testookruglitel/vsf-t-2000"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-152",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-152"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-176",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-176"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-240",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-240"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-328",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-328"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-400",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-400"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-450",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-450"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-650",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-650"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/bagetoformuyushhaya-mashina/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/bagetoformuyushhaya-mashina/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/bagetoformuyushhaya-mashina/vsdm-700",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/bagetoformuyushhaya-mashina/vsdm-700"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-30s",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-30s"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-30a",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-30a"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-11",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-11"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-15",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-15"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-18",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-18"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-22",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-22"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-30",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-30"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-36",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-36"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-507",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-507"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-610",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-610"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-612",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-612"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-613",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-613"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-614",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-614"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-615",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-615"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-30",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-30"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-40",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-40"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-55",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-55"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-60",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-60"
+  },
+  {
+    "from": "/katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-60.3",
+    "to": "/katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-60.3"
+  }
+]

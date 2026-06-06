@@ -1,0 +1,52 @@
+{
+  "id": "222",
+  "urlSlug": "vskn-800",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel-s-transporternoj-lentoj/vskn-800",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel-s-transporternoj-lentoj/vskn-800",
+  "title": "VSKN-800",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testookruglitel-s-transporternoj-lentoj",
+  "image": "/uploads/media/testookruglitel-vsforni.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "5400 шт/час"
+    },
+    {
+      "label": "Диапазон веса",
+      "value": "20-500 гр"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "0,5 кВт"
+    },
+    {
+      "label": "Ширина",
+      "value": "850 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "850"
+    },
+    {
+      "label": "Высота",
+      "value": "1450 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "200 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKN-800",
+    "description": "Производительность: 5400 шт/час; Диапазон веса: 20-500 гр",
+    "ogImage": "/uploads/media/testookruglitel-vsforni.jpg"
+  }
+}

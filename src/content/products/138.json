@@ -1,0 +1,44 @@
+{
+  "id": "138",
+  "urlSlug": "vsf-formm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/shtampovochno-rezatelnaya-mashina/vsf-formm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/shtampovochno-rezatelnaya-mashina/vsf-formm",
+  "title": "VSF FormM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "shtampovochno-rezatelnaya-mashina",
+  "image": "/uploads/catalog/shtampovochno-rezatelnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "54 см"
+    },
+    {
+      "label": "Длина",
+      "value": "173 см"
+    },
+    {
+      "label": "Высота",
+      "value": "132 см"
+    },
+    {
+      "label": "Вес станка",
+      "value": "110 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "0.5 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "220 В"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF FormM",
+    "description": "Ширина: 54 см; Длина: 173 см",
+    "ogImage": "/uploads/catalog/shtampovochno-rezatelnaya-mashina.jpg"
+  }
+}

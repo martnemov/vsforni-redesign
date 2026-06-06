@@ -1,0 +1,64 @@
+{
+  "id": "186",
+  "urlSlug": "vsl-x900",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/oxladitel-vodyi/vsl-x900",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/oxladitel-vodyi/vsl-x900",
+  "title": "VSL-X900",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "oxladitel-vodyi",
+  "image": "/uploads/catalog/oxladitel-vodyi.jpg",
+  "specs": [
+    {
+      "label": "Емкость цистерны",
+      "value": "900 л"
+    },
+    {
+      "label": "Производительность",
+      "value": "160 л / ч"
+    },
+    {
+      "label": "Напряжение питания",
+      "value": "380 / 50 В / Гц"
+    },
+    {
+      "label": "Минимальная температура охлаждения",
+      "value": "1,5 °C"
+    },
+    {
+      "label": "Ширина  (W)",
+      "value": "1100 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1100 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2050 мм"
+    },
+    {
+      "label": "Электрическая мощность компрессора (герметический)",
+      "value": "1,5 кВт"
+    },
+    {
+      "label": "Подключение воды (вход - выход)",
+      "value": "½ - ¾ дюйм"
+    },
+    {
+      "label": "Подключение воды (разряд - перелив)",
+      "value": "¾ - ½ дюйм"
+    },
+    {
+      "label": "Масса",
+      "value": "255 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSL-X900",
+    "description": "Емкость цистерны: 900 л; Производительность: 160 л / ч",
+    "ogImage": "/uploads/catalog/oxladitel-vodyi.jpg"
+  }
+}

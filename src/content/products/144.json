@@ -1,0 +1,44 @@
+{
+  "id": "144",
+  "urlSlug": "vsf-im",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/inekczionnaya-mashina/vsf-im",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/inekczionnaya-mashina/vsf-im",
+  "title": "VSF IM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "inekczionnaya-mashina",
+  "image": "/uploads/catalog/inekczionnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "53 см"
+    },
+    {
+      "label": "Длина",
+      "value": "40 см"
+    },
+    {
+      "label": "Высота",
+      "value": "63 см"
+    },
+    {
+      "label": "Бункер для теста",
+      "value": "20/40 л"
+    },
+    {
+      "label": "Вес станка",
+      "value": "50 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "100 кВт"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF IM",
+    "description": "Ширина: 53 см; Длина: 40 см",
+    "ogImage": "/uploads/catalog/inekczionnaya-mashina.jpg"
+  }
+}

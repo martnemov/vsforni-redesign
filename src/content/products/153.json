@@ -1,0 +1,44 @@
+{
+  "id": "153",
+  "urlSlug": "vsdf-100t",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/telezhka-dlya-rotaczionnoj-pechi/vsdf-100t",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/telezhka-dlya-rotaczionnoj-pechi/vsdf-100t",
+  "title": "VSDF 100T",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "telezhka-dlya-rotaczionnoj-pechi",
+  "image": "/uploads/catalog/telezhka-dlya-rotaczionnoj-pechi.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "10 - 16 шт."
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "160 - 80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "650 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "872 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1520 мм"
+    },
+    {
+      "label": "Масса тележки",
+      "value": "35 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDF 100T",
+    "description": "Количество противней: 10 - 16 шт.; Расстояние между противнями: 160 - 80 мм",
+    "ogImage": "/uploads/catalog/telezhka-dlya-rotaczionnoj-pechi.jpg"
+  }
+}

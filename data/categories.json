@@ -1,0 +1,56 @@
+[
+  {
+    "id": "268",
+    "slug": "avtomaticheskie-proizvodstvennyie-linii",
+    "originalUri": "katalog-oborudovaniya-vs-forni/avtomaticheskie-proizvodstvennyie-linii",
+    "astroUri": "katalog-oborudovaniya-vs-forni/avtomaticheskie-proizvodstvennyie-linii",
+    "title": "Автоматические производственные линии",
+    "description": "",
+    "groupCount": 4
+  },
+  {
+    "id": "9",
+    "slug": "konditerskoe-oborudovanie",
+    "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie",
+    "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie",
+    "title": "Кондитерское оборудование",
+    "description": "",
+    "groupCount": 19
+  },
+  {
+    "id": "223",
+    "slug": "testomesyi-s-oprokidyivaniem",
+    "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem",
+    "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem",
+    "title": "Тестомесы и миксеры",
+    "description": "",
+    "groupCount": 11
+  },
+  {
+    "id": "8",
+    "slug": "testopodgotovka",
+    "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi",
+    "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka",
+    "title": "Тестоподготовка",
+    "description": "",
+    "groupCount": 15
+  },
+  {
+    "id": "7",
+    "slug": "pechi",
+    "originalUri": "katalog-oborudovaniya-vs-forni/pechi",
+    "astroUri": "katalog-oborudovaniya-vs-forni/pechi",
+    "title": "Печи",
+    "description": "",
+    "groupCount": 11
+  },
+  {
+    "id": "10",
+    "slug": "vspomogatelnoe-oborudovanie",
+    "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie",
+    "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie",
+    "title": "Вспомогательное оборудование",
+    "description": "",
+    "groupCount": 17
+  }
+]

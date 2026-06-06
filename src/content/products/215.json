@@ -1,0 +1,48 @@
+{
+  "id": "215",
+  "urlSlug": "vsf-pp320",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/vsjm-p240/vsf-pp320",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/vsjm-p240/vsf-pp320",
+  "title": "VSF-PP320",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "vsjm-p240",
+  "image": "/uploads/media/ukladchik-na-protivni-vsf.png",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "20-120 шт/мин"
+    },
+    {
+      "label": "Мощность",
+      "value": "1,2 кВт"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "220/380 В"
+    },
+    {
+      "label": "Ширина",
+      "value": "1640 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1560 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1850 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "400 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-PP320",
+    "description": "Производительность: 20-120 шт/мин; Мощность: 1,2 кВт",
+    "ogImage": "/uploads/media/ukladchik-na-protivni-vsf.png"
+  }
+}

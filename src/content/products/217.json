@@ -1,0 +1,60 @@
+{
+  "id": "217",
+  "urlSlug": "vsf-5d",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/kovekczionnaya-pech/vsf-5d",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/kovekczionnaya-pech/vsf-5d",
+  "title": "VSF-5D",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "kovekczionnaya-pech",
+  "image": "/uploads/media/konvekczionnaya-pech-vsf.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1370 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "910 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "890"
+    },
+    {
+      "label": "Вес",
+      "value": "160 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "9,5 кВт"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "110 мм"
+    },
+    {
+      "label": "Размер противня",
+      "value": "400х600 мм"
+    },
+    {
+      "label": "Количество противней",
+      "value": "5 шт"
+    },
+    {
+      "label": "Рабочая температура",
+      "value": "0-350 С"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-5D",
+    "description": "Ширина: 1370 мм; Глубина: 910 мм",
+    "ogImage": "/uploads/media/konvekczionnaya-pech-vsf.jpg"
+  }
+}

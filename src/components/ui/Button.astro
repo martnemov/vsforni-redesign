@@ -1,0 +1,73 @@
+---
+interface Props {
+  variant?: 'primary' | 'outline' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  href?: string;
+  type?: 'button' | 'submit' | 'reset';
+  id?: string;
+  class?: string;
+  'data-modal'?: string;
+}
+
+const { variant = 'primary', size = 'md', href, type = 'button', id, class: cls, 'data-modal': dataModal } = Astro.props;
+const Tag = href ? 'a' : 'button';
+---
+<Tag
+  class:list={['btn', `btn--${variant}`, `btn--${size}`, cls]}
+  href={href}
+  type={Tag === 'button' ? type : undefined}
+  id={id}
+  data-modal={dataModal}
+>
+  <slot />
+</Tag>
+
+<style>
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-2);
+    border: 1px solid transparent;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: .01em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color var(--transition), color var(--transition), border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+    white-space: nowrap;
+  }
+
+  .btn--sm { padding: .7em 1.2em; font-size: var(--font-sm); }
+  .btn--md { padding: .85em 1.6em; font-size: var(--font-sm); }
+  .btn--lg { padding: 1em 1.9em; font-size: var(--font-base); }
+
+  .btn--primary {
+    background-color: var(--accent);
+    color: var(--ink-900);
+    border-color: var(--accent);
+  }
+  .btn--primary:hover {
+    background-color: var(--copper-700);
+    border-color: var(--copper-700);
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(138,74,9,.28);
+  }
+
+  .btn--outline {
+    background-color: transparent;
+    color: var(--ink-900);
+    border-color: var(--ink-900);
+  }
+  .btn--outline:hover { background-color: var(--ink-900); color: #fff; }
+
+  .btn--ghost {
+    background-color: transparent;
+    color: var(--accent-text);
+    border-color: var(--copper-200);
+  }
+  .btn--ghost:hover { background-color: var(--copper-50); border-color: var(--accent); }
+</style>

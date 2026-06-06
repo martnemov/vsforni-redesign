@@ -1,0 +1,68 @@
+{
+  "id": "71",
+  "urlSlug": "vsdm-700",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/bagetoformuyushhaya-mashina/vsdm-700",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/bagetoformuyushhaya-mashina/vsdm-700",
+  "title": "VSDM 700",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "bagetoformuyushhaya-mashina",
+  "image": "/uploads/catalog/bagetoformuyushhaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "1800 шт./ч"
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "50 - 2000 г"
+    },
+    {
+      "label": "Количество валиков",
+      "value": "3 шт."
+    },
+    {
+      "label": "Макс. длина багета",
+      "value": "700 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1040 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1000 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1630 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "880 мм"
+    },
+    {
+      "label": "Высота (H2)",
+      "value": "750 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,75 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "300 кг"
+    },
+    {
+      "label": "Масса подставки",
+      "value": "40 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDM 700",
+    "description": "Производительность: 1800 шт./ч; Масса тестовых заготовок: 50 - 2000 г",
+    "ogImage": "/uploads/catalog/bagetoformuyushhaya-mashina.jpg"
+  }
+}

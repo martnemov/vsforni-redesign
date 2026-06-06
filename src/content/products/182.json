@@ -1,0 +1,56 @@
+{
+  "id": "182",
+  "urlSlug": "vswd-60",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/dozator-vodyi/vswd-60",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/dozator-vodyi/vswd-60",
+  "title": "VSWD 60",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "dozator-vodyi",
+  "image": "/uploads/catalog/dozator-vodyi.jpg",
+  "specs": [
+    {
+      "label": "Диапазон дозирования",
+      "value": "15 - 999,9 л"
+    },
+    {
+      "label": "Диапазон температуры воды",
+      "value": "0 - 50 °C"
+    },
+    {
+      "label": "Диапазон давления воды",
+      "value": "2 - 10 бар"
+    },
+    {
+      "label": "Электрическое напряжение",
+      "value": "220 В"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "20 Вт"
+    },
+    {
+      "label": "Расход жидкости",
+      "value": "60 л/мин"
+    },
+    {
+      "label": "Водозабор",
+      "value": "3.4 дюйм"
+    },
+    {
+      "label": "Габаритные размеры",
+      "value": "280 x 300 x 100 мм"
+    },
+    {
+      "label": "Масса",
+      "value": "4,5 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSWD 60",
+    "description": "Диапазон дозирования: 15 - 999,9 л; Диапазон температуры воды: 0 - 50 °C",
+    "ogImage": "/uploads/catalog/dozator-vodyi.jpg"
+  }
+}

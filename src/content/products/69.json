@@ -1,0 +1,76 @@
+{
+  "id": "69",
+  "urlSlug": "vsdm-650",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-650",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-650",
+  "title": "VSDM 650",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testozakatochnaya-mashina",
+  "image": "/uploads/catalog/testozakatochnaya-mashina-650.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "2500 шт./ч"
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "100-1350 г"
+    },
+    {
+      "label": "Количество плиты",
+      "value": "1 шт."
+    },
+    {
+      "label": "Количество валиков",
+      "value": "4 шт."
+    },
+    {
+      "label": "Ширина ленты",
+      "value": "650 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1000 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2250 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "2500 мм"
+    },
+    {
+      "label": "Длина прижимной ленты (L2)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1200 мм"
+    },
+    {
+      "label": "Высота входа теста (H1)",
+      "value": "1180 мм"
+    },
+    {
+      "label": "Высота выхода теста (H2)",
+      "value": "640 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1,3 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "580 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDM 650",
+    "description": "Производительность: 2500 шт./ч; Масса тестовых заготовок: 100-1350 г",
+    "ogImage": "/uploads/catalog/testozakatochnaya-mashina-650.jpg"
+  }
+}

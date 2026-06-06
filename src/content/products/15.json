@@ -1,0 +1,92 @@
+{
+  "id": "15",
+  "urlSlug": "vsdf-50",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/rotaczionnaya-pech/vsdf-50",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/rotaczionnaya-pech/vsdf-50",
+  "title": "VSDF 50",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "rotaczionnaya-pech",
+  "image": "/uploads/catalog/rotaczionnaya-pech-thumb.jpg",
+  "specs": [
+    {
+      "label": "Производительность* (хлеб/8 часов)",
+      "value": "1750 шт."
+    },
+    {
+      "label": "Площадь выпечки",
+      "value": "2,8 - 5,2 м2"
+    },
+    {
+      "label": "Количество противней",
+      "value": "8 - 15 шт."
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "150 - 80 мм"
+    },
+    {
+      "label": "Размеры противня",
+      "value": "53x65, 50x70 см"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1375 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "1750 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2150 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2150 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "2.6 кВт"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "32000 ккал/ч"
+    },
+    {
+      "label": "Макс. температура",
+      "value": "350 °C"
+    },
+    {
+      "label": "Давление газа / Рабочее давление",
+      "value": "300 / 50 мбар"
+    },
+    {
+      "label": "Электрическая мощность для электрической модели",
+      "value": "39 кВт"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Дизель, Природный газ / СНГ, Электроэнергия, Пеллет"
+    },
+    {
+      "label": "Масса печи",
+      "value": "1230 кг"
+    },
+    {
+      "label": "Система управления",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Энергопотребление (максимально)**",
+      "value": "3,6; 3,8; 3 СНГ (л/ ч)"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDF 50",
+    "description": "Производительность* (хлеб/8 часов): 1750 шт.; Площадь выпечки: 2,8 - 5,2 м2",
+    "ogImage": "/uploads/catalog/rotaczionnaya-pech-thumb.jpg"
+  }
+}

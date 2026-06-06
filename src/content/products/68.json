@@ -1,0 +1,76 @@
+{
+  "id": "68",
+  "urlSlug": "vsdm-450",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-450",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-450",
+  "title": "VSDM 450",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testozakatochnaya-mashina",
+  "image": "/uploads/catalog/testozakatochnaya-mashina-650.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "2000 шт./ч."
+    },
+    {
+      "label": "Масса тестовых заготовок",
+      "value": "50 - 1200 г"
+    },
+    {
+      "label": "Количество плиты",
+      "value": "2 шт."
+    },
+    {
+      "label": "Ширина ленты",
+      "value": "400 мм"
+    },
+    {
+      "label": "Количество валиков",
+      "value": "4 шт."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "700 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2000 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "2250 мм"
+    },
+    {
+      "label": "Длина плиты (плит) (L2)",
+      "value": "630 + 450 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1200 мм"
+    },
+    {
+      "label": "Высота теста входа (H1)",
+      "value": "1180 мм"
+    },
+    {
+      "label": "Высота выхода теста (H2)",
+      "value": "640 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0.75 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "240 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDM 450",
+    "description": "Производительность: 2000 шт./ч.; Масса тестовых заготовок: 50 - 1200 г",
+    "ogImage": "/uploads/catalog/testozakatochnaya-mashina-650.jpg"
+  }
+}

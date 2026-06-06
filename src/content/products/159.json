@@ -1,0 +1,48 @@
+{
+  "id": "159",
+  "urlSlug": "vsfs-2000",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/mukoproseivatel/vsfs-2000",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/mukoproseivatel/vsfs-2000",
+  "title": "VSFS 2000",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "mukoproseivatel",
+  "image": "/uploads/catalog/mukoproseivatel.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "2000 кг/ч"
+    },
+    {
+      "label": "Емкость бункера",
+      "value": "50 кг"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "900 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1200 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1750 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1.1 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "90 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSFS 2000",
+    "description": "Производительность: 2000 кг/ч; Емкость бункера: 50 кг",
+    "ogImage": "/uploads/catalog/mukoproseivatel.jpg"
+  }
+}

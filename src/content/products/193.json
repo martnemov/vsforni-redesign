@@ -1,0 +1,52 @@
+{
+  "id": "193",
+  "urlSlug": "vskf-180t",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/podovaya-telezhka/vskf-180t",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/podovaya-telezhka/vskf-180t",
+  "title": "VSKF 180T",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "podovaya-telezhka",
+  "image": "/uploads/catalog/podovaya-telezhka.jpg",
+  "specs": [
+    {
+      "label": "Количество поддонов",
+      "value": "12 шт."
+    },
+    {
+      "label": "Масса поддона",
+      "value": "14 кг"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "170 (130x40) мм"
+    },
+    {
+      "label": "Размеры поддонов",
+      "value": "600x2900x40 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "600 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2900 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1900 мм"
+    },
+    {
+      "label": "Масса тележки",
+      "value": "(168+75):243 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKF 180T",
+    "description": "Количество поддонов: 12 шт.; Масса поддона: 14 кг",
+    "ogImage": "/uploads/catalog/podovaya-telezhka.jpg"
+  }
+}

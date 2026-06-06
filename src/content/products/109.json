@@ -1,0 +1,64 @@
+{
+  "id": "109",
+  "urlSlug": "vsp-120",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/avtomaticheskij-planetarnyij-mikser/vsp-120",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/avtomaticheskij-planetarnyij-mikser/vsp-120",
+  "title": "VSP 120",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "avtomaticheskij-planetarnyij-mikser",
+  "image": "/uploads/catalog/avtomaticheskij-planetarnyij-mikser.jpg",
+  "specs": [
+    {
+      "label": "Емкость дежи",
+      "value": "120 л"
+    },
+    {
+      "label": "Вращение двигателя",
+      "value": "100-520 об/мин"
+    },
+    {
+      "label": "Вращение насадки",
+      "value": "0-200 об/мин"
+    },
+    {
+      "label": "Размеры дежи (øxh)",
+      "value": "500x630 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1025 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1180 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2015 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "1380 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "4 кВт"
+    },
+    {
+      "label": "Масса пустой дежи",
+      "value": "23 кг"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "550 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSP 120",
+    "description": "Емкость дежи: 120 л; Вращение двигателя: 100-520 об/мин",
+    "ogImage": "/uploads/catalog/avtomaticheskij-planetarnyij-mikser.jpg"
+  }
+}

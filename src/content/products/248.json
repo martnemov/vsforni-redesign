@@ -1,0 +1,48 @@
+{
+  "id": "248",
+  "urlSlug": "vsf-kym",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/vsf-kym",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/vsf-kym",
+  "title": "VSF KYM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "promyishlennyij-testodelitel-dlya-berezhnogo-deleniya",
+  "image": "/uploads/media/testodelitel-1.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "1200 / 2600 / 3900 шт/час"
+    },
+    {
+      "label": "Диапазон деления",
+      "value": "400-2400 / 100-1200 / 100-650 гр."
+    },
+    {
+      "label": "Габариты",
+      "value": "880*1260*1805 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "900 кг"
+    },
+    {
+      "label": "Эл. мощность",
+      "value": "2 кВт / 380 В"
+    },
+    {
+      "label": "Количество поршней",
+      "value": "1 / 2 / 3 шт"
+    },
+    {
+      "label": "Особенности",
+      "value": "Посыпка муки"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF KYM",
+    "description": "Производительность: 1200 / 2600 / 3900 шт/час; Диапазон деления: 400-2400 / 100-1200 / 100-650 гр.",
+    "ogImage": "/uploads/media/testodelitel-1.jpg"
+  }
+}

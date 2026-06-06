@@ -1,0 +1,64 @@
+{
+  "id": "168",
+  "urlSlug": "vscs-390",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/gorizontalnaya-biskvitorezka/vscs-390",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/gorizontalnaya-biskvitorezka/vscs-390",
+  "title": "VSCS 390",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "gorizontalnaya-biskvitorezka",
+  "image": "/uploads/catalog/gorizontalnaya-biskvitorezka.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "5000 шт / ч."
+    },
+    {
+      "label": "Толщина нарезки (мин. - макс.)",
+      "value": "5 - 90 мм"
+    },
+    {
+      "label": "Количество ножей в стандарте",
+      "value": "2 шт."
+    },
+    {
+      "label": "Ширина конвейерной ленты",
+      "value": "390 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "680 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1800 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1215 мм"
+    },
+    {
+      "label": "Высота подставка (H1)",
+      "value": "830 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,75 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380/50 В/Гц"
+    },
+    {
+      "label": "Масса",
+      "value": "150 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSCS 390",
+    "description": "Производительность: 5000 шт / ч.; Толщина нарезки (мин. - макс.): 5 - 90 мм",
+    "ogImage": "/uploads/catalog/gorizontalnaya-biskvitorezka.jpg"
+  }
+}

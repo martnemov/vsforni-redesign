@@ -1,0 +1,120 @@
+{
+  "id": "13",
+  "urlSlug": "vskf-24",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/elektricheskaya-podovaya-pech/vskf-24",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/elektricheskaya-podovaya-pech/vskf-24",
+  "title": "VSKF 24",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "elektricheskaya-podovaya-pech",
+  "image": "/uploads/catalog/elektricheskaya-podovaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Производительность* (хлеб/8 часов)",
+      "value": "720 шт."
+    },
+    {
+      "label": "Площадь выпечки",
+      "value": "2,45 м2"
+    },
+    {
+      "label": "Количество поддонов",
+      "value": "2 шт."
+    },
+    {
+      "label": "Размеры поддонов",
+      "value": "580x2400 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1700 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2500 мм"
+    },
+    {
+      "label": "Высота одного яруса (H1)",
+      "value": "400 мм"
+    },
+    {
+      "label": "Высота поставки (H2)",
+      "value": "630 мм"
+    },
+    {
+      "label": "Внутренняя ширина печи",
+      "value": "1200 мм"
+    },
+    {
+      "label": "Внутренняя длина печи",
+      "value": "2060 мм"
+    },
+    {
+      "label": "Внутренняя высота печи",
+      "value": "200 мм"
+    },
+    {
+      "label": "Высота вытяжки(H2)",
+      "value": "200 мм"
+    },
+    {
+      "label": "Количество противней (40x60 cм)",
+      "value": "40 шт."
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "20,5 кВт"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Электрическая"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "24 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380, 50/60 В, Гц"
+    },
+    {
+      "label": "Потребление / давление газа",
+      "value": "- м3/ч ( мбар)"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "- ккал/ч"
+    },
+    {
+      "label": "Масса печи",
+      "value": "310 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3 кВт"
+    },
+    {
+      "label": "Высота кабины расстойки (H1)",
+      "value": "775 мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "50 кг"
+    },
+    {
+      "label": "Количество противней расстойной камеры",
+      "value": "16 шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKF 24",
+    "description": "Производительность* (хлеб/8 часов): 720 шт.; Площадь выпечки: 2,45 м2",
+    "ogImage": "/uploads/catalog/elektricheskaya-podovaya-pech.jpg"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "41",
+  "urlSlug": "vsrc-5d",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/pech-kombinirovannaya/vsrc-5d",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/pech-kombinirovannaya/vsrc-5d",
+  "title": "VSRC 5D",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "pech-kombinirovannaya",
+  "image": "/uploads/catalog/pech-kombinirovannaya.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "5+2 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1050 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Высота (H + H1)",
+      "value": "840+350 мм"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Электрическая"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "13,5+4,5 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380/50 В/Гц"
+    },
+    {
+      "label": "Масса печи",
+      "value": "230+120 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3 кВт"
+    },
+    {
+      "label": "Высота кабины расстойки (H2)",
+      "value": "690 мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "50 кг"
+    },
+    {
+      "label": "Количество противней кабины расстойки",
+      "value": "10 шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSRC 5D",
+    "description": "Количество противней: 5+2 шт.; Размеры противней: 40x60 см",
+    "ogImage": "/uploads/catalog/pech-kombinirovannaya.jpg"
+  }
+}

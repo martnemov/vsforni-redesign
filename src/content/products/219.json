@@ -1,0 +1,60 @@
+{
+  "id": "219",
+  "urlSlug": "vsf-10d",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/kovekczionnaya-pech/vsf-10d",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/kovekczionnaya-pech/vsf-10d",
+  "title": "VSF-10D",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "kovekczionnaya-pech",
+  "image": "/uploads/media/konvekczionnaya-pech-vsf.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1420 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "920 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1840 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "280 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "19 кВт"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "110 мм"
+    },
+    {
+      "label": "Размер противня",
+      "value": "400х600 мм"
+    },
+    {
+      "label": "Количество противней",
+      "value": "10 шт"
+    },
+    {
+      "label": "Рабочая температура",
+      "value": "0-350 С"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-10D",
+    "description": "Ширина: 1420 мм; Глубина: 920 мм",
+    "ogImage": "/uploads/media/konvekczionnaya-pech-vsf.jpg"
+  }
+}

@@ -1,0 +1,94 @@
+vsforni.ru {
+	encode gzip zstd
+
+	# Static assets — immutable (hashed filenames)
+	@hashed {
+		path_regexp hashed \/_astro\/[^/]+\.(js|css|woff2?)$
+	}
+	header @hashed Cache-Control "public, max-age=31536000, immutable"
+
+	# Fonts
+	header /fonts/* Cache-Control "public, max-age=31536000, immutable"
+
+	# Uploads (images/videos)
+	header /uploads/* Cache-Control "public, max-age=86400, stale-while-revalidate=604800"
+
+	# API — no cache
+	header /api/* Cache-Control "no-store"
+
+	# 301 redirects (testomesyi,-mikseryi → testopodgotovka)
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ /katalog-oborudovaniya-vs-forni/testopodgotovka/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/vsvd-4000 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/vsvd-4000 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/vsvd-2000 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/vsvd-2000 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/ /katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-1p /katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-1p 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-2p /katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-2p 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-3p /katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-3p 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/besstresovyij-testodelitel/vskn-4p /katalog-oborudovaniya-vs-forni/testopodgotovka/besstresovyij-testodelitel/vskn-4p 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/ /katalog-oborudovaniya-vs-forni/testopodgotovka/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/vsf-kym /katalog-oborudovaniya-vs-forni/testopodgotovka/promyishlennyij-testodelitel-dlya-berezhnogo-deleniya/vsf-kym 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-1 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-1 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-2 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-2 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-3 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-3 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-4 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-4 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-5 /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-5 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel-s-transporternoj-lentoj/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel-s-transporternoj-lentoj/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel-s-transporternoj-lentoj/vskn-800 /katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel-s-transporternoj-lentoj/vskn-800 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testookruglitel/vscr-2000 /katalog-oborudovaniya-vs-forni/testopodgotovka/testookruglitel/vscr-2000 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/eksczentrikovyij-testookruglitel/ /katalog-oborudovaniya-vs-forni/testopodgotovka/eksczentrikovyij-testookruglitel/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/eksczentrikovyij-testookruglitel/vsf-t-2000 /katalog-oborudovaniya-vs-forni/testopodgotovka/eksczentrikovyij-testookruglitel/vsf-t-2000 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/ /katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-152 /katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-152 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-176 /katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-176 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-240 /katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-240 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/shkaf-predvaritelnoj-rasstojki/vsip-328 /katalog-oborudovaniya-vs-forni/testopodgotovka/shkaf-predvaritelnoj-rasstojki/vsip-328 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-400 /katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-400 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-450 /katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-450 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testozakatochnaya-mashina/vsdm-650 /katalog-oborudovaniya-vs-forni/testopodgotovka/testozakatochnaya-mashina/vsdm-650 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/bagetoformuyushhaya-mashina/ /katalog-oborudovaniya-vs-forni/testopodgotovka/bagetoformuyushhaya-mashina/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/bagetoformuyushhaya-mashina/vsdm-700 /katalog-oborudovaniya-vs-forni/testopodgotovka/bagetoformuyushhaya-mashina/vsdm-700 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/ /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10 /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10a /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-10a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20 /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20a /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-20a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24 /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24a /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-24a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30 /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30a /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-30a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020 /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020a /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1020a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530 /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530a /katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-30s /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-30s 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-30a /katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-30a 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/ /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-11 /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-11 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-15 /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-15 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-18 /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-18 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-22 /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-22 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-30 /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-30 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-36 /katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-36 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/ /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-507 /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-507 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-610 /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-610 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-612 /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-612 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-613 /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-613 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-614 /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-614 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-615 /katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-615 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/ /katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/ 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-30 /katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-30 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-40 /katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-40 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-55 /katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-55 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-60 /katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-60 301
+		redir /katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/nastolnaya-testoraskatka/vssm-60.3 /katalog-oborudovaniya-vs-forni/testopodgotovka/nastolnaya-testoraskatka/vssm-60.3 301
+
+	# Node.js app (standalone adapter)
+	reverse_proxy localhost:4321
+}

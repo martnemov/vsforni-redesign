@@ -1,0 +1,84 @@
+{
+  "id": "198",
+  "urlSlug": "vsf-32-01",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/rotaczionnyie-pechi/vsf-32-01",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/rotaczionnyie-pechi/vsf-32-01",
+  "title": "VSF-32-01",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "rotaczionnyie-pechi",
+  "image": "/uploads/media/rotaczionnaya-vsf.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "3000 шт."
+    },
+    {
+      "label": "Площадь выпечки",
+      "value": "4,8 - 9,6 м2"
+    },
+    {
+      "label": "Количество противней",
+      "value": "10-20 шт."
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "160 - 80 мм"
+    },
+    {
+      "label": "Размеры противня",
+      "value": "60х80, 60х90 см"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1680 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2600 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2440 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "2.8 кВт"
+    },
+    {
+      "label": "Макс. температура",
+      "value": "350 °C"
+    },
+    {
+      "label": "Давление газа / Рабочее давление",
+      "value": "300 / 50 мбар"
+    },
+    {
+      "label": "Электрическая мощность для электрической модели",
+      "value": "50.7 кВт"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Дизель, Природный газ / СПГ, Электроэнергия, Пеллет"
+    },
+    {
+      "label": "Масса печи",
+      "value": "1800 кг"
+    },
+    {
+      "label": "Система управления",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Энергопотребление (максимально)**",
+      "value": "6,8; 7,2; 6 СПГ (л/ ч)"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-32-01",
+    "description": "Производительность: 3000 шт.; Площадь выпечки: 4,8 - 9,6 м2",
+    "ogImage": "/uploads/media/rotaczionnaya-vsf.jpg"
+  }
+}

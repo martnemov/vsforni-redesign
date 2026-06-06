@@ -1,0 +1,244 @@
+---
+import { useTranslations, getLang } from '../../i18n';
+
+type FormType = 'callback' | 'price-request' | 'reviews-request' | 'design-request';
+
+interface Props {
+  id: string;
+  title: string;
+  formType?: FormType;
+  productTitle?: string;
+}
+
+const { id, title, formType = 'callback', productTitle } = Astro.props;
+const t = useTranslations(getLang(Astro.currentLocale));
+
+const endpoint = `/api/${formType}`;
+
+const showEmail   = formType === 'price-request' || formType === 'design-request';
+const showMessage = formType === 'design-request';
+const showCompany = formType === 'reviews-request';
+const showProduct = formType === 'price-request' && !!productTitle;
+
+const captchaKey = import.meta.env.SMARTCAPTCHA_CLIENT_KEY ?? '';
+---
+<dialog class="modal" id={id} aria-labelledby={`${id}-title`}>
+  <div class="modal__box">
+    <button class="modal__close" type="button" aria-label={t.formClose} data-close>&times;</button>
+
+    <div class="modal__form-wrap" data-state="idle">
+      <h2 class="modal__title" id={`${id}-title`}>{title}</h2>
+      {productTitle && <p class="modal__subtitle">{productTitle}</p>}
+
+      <form
+        class="modal__form"
+        novalidate
+        data-endpoint={endpoint}
+        data-modal-id={id}
+      >
+        <label>
+          <span>{t.formName} *</span>
+          <input type="text" name="name" required autocomplete="name" />
+          <span class="field-error" aria-live="polite"></span>
+        </label>
+
+        <label>
+          <span>{t.formPhone} *</span>
+          <input type="tel" name="phone" required autocomplete="tel" />
+          <span class="field-error" aria-live="polite"></span>
+        </label>
+
+        {showEmail && (
+          <label>
+            <span>{t.formEmail}</span>
+            <input type="email" name="email" autocomplete="email" />
+            <span class="field-error" aria-live="polite"></span>
+          </label>
+        )}
+
+        {showProduct && (
+          <input type="hidden" name="product" value={productTitle} />
+        )}
+
+        {showCompany && (
+          <label>
+            <span>{t.formCompany}</span>
+            <input type="text" name="company" />
+          </label>
+        )}
+
+        {showMessage && (
+          <label>
+            <span>{t.formMessage}</span>
+            <textarea name="message" rows="4"></textarea>
+          </label>
+        )}
+
+        {captchaKey && (
+          <div class="smartcaptcha" id={`captcha-${id}`} data-sitekey={captchaKey}></div>
+        )}
+
+        <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true" />
+
+        <div class="modal__actions">
+          <button type="submit" class="btn btn--primary btn--lg">{t.formSend}</button>
+        </div>
+
+        <p class="modal__form-error" aria-live="assertive"></p>
+      </form>
+    </div>
+
+    <div class="modal__success" hidden>
+      <p class="modal__success-icon" aria-hidden="true">✓</p>
+      <h3>{t.formSuccess}</h3>
+    </div>
+  </div>
+</dialog>
+
+{captchaKey && (
+  <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer async></script>
+)}
+
+<script>
+  // Open modal by data-modal attribute
+  document.addEventListener('click', (e) => {
+    const trigger = (e.target as Element)?.closest('[data-modal]') as HTMLElement | null;
+    if (!trigger) return;
+    const dialogId = trigger.dataset.modal;
+    if (!dialogId) return;
+    const dialog = document.getElementById(dialogId) as HTMLDialogElement | null;
+    dialog?.showModal();
+  });
+
+  // Close on X button or backdrop click
+  document.querySelectorAll('.modal').forEach((dialogEl) => {
+    const dialog = dialogEl as HTMLDialogElement;
+
+    dialog.querySelector('[data-close]')?.addEventListener('click', () => dialog.close());
+
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+
+    // Reset on close
+    dialog.addEventListener('close', () => {
+      const wrap = dialog.querySelector('[data-state]') as HTMLElement | null;
+      const success = dialog.querySelector('.modal__success') as HTMLElement | null;
+      const form = dialog.querySelector('form');
+      if (wrap) wrap.dataset.state = 'idle';
+      if (success) success.hidden = true;
+      if (wrap) (wrap as HTMLElement).hidden = false;
+      form?.reset();
+      dialog.querySelectorAll('.field-error').forEach(el => el.textContent = '');
+      (dialog.querySelector('.modal__form-error') as HTMLElement | null)?.textContent ? (dialog.querySelector('.modal__form-error') as HTMLElement).textContent = '' : null;
+    });
+  });
+
+  // Form submit handler
+  const __L = document.documentElement.lang === 'en' ? 'en' : 'ru';
+  const __MSG = __L === 'en'
+    ? { submit: 'Submission error. Please try again.', net: 'Network error. Please try again.' }
+    : { submit: 'Ошибка отправки. Попробуйте ещё раз.', net: 'Ошибка сети. Попробуйте ещё раз.' };
+  document.querySelectorAll('.modal__form').forEach((formEl) => {
+    const form = formEl as HTMLFormElement;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Honeypot check (client)
+      const hp = (form.querySelector('[name="hp"]') as HTMLInputElement | null)?.value;
+      if (hp) return;
+
+      const endpoint = form.dataset.endpoint!;
+      const dialog = form.closest('.modal') as HTMLDialogElement;
+      const formWrap = dialog.querySelector('[data-state]') as HTMLElement | null;
+      const successEl = dialog.querySelector('.modal__success') as HTMLElement | null;
+      const errorEl = form.querySelector('.modal__form-error') as HTMLElement | null;
+      const submitBtn = form.querySelector('[type="submit"]') as HTMLButtonElement | null;
+
+      // Clear previous errors
+      form.querySelectorAll('.field-error').forEach(el => el.textContent = '');
+      if (errorEl) errorEl.textContent = '';
+
+      // Build payload
+      const data: Record<string, string> = {};
+      new FormData(form).forEach((v, k) => { if (typeof v === 'string') data[k] = v; });
+
+      // Captcha token if widget present
+      if ((window as any).smartCaptcha) {
+        const captchaId = dialog.querySelector('.smartcaptcha')?.id;
+        const token = captchaId ? (window as any).smartCaptcha.getResponse(captchaId) : undefined;
+        if (token) data['captchaToken'] = token;
+      }
+
+      if (submitBtn) submitBtn.disabled = true;
+
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+
+        const json = await res.json() as { ok: boolean; errors?: Record<string, string[]> };
+
+        if (json.ok) {
+          if (formWrap) formWrap.hidden = true;
+          if (successEl) successEl.hidden = false;
+        } else if (json.errors) {
+          for (const [field, msgs] of Object.entries(json.errors)) {
+            const input = form.querySelector(`[name="${field}"]`);
+            const errEl = input?.parentElement?.querySelector('.field-error');
+            if (errEl && msgs.length) errEl.textContent = msgs[0]!;
+          }
+        } else {
+          if (errorEl) errorEl.textContent = __MSG.submit;
+        }
+      } catch {
+        if (errorEl) errorEl.textContent = __MSG.net;
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+      }
+    });
+  });
+</script>
+
+<style>
+  .modal {
+    border: none; border-radius: var(--radius-lg);
+    padding: 0; max-width: 33rem; width: calc(100% - 2rem);
+    box-shadow: 0 12px 56px rgba(27,23,20,.28);
+    color: var(--color-text);
+  }
+  .modal::backdrop { background: rgba(27,23,20,.55); backdrop-filter: blur(2px); }
+  .modal__box { padding: clamp(1.6rem, 4vw, 2.4rem); position: relative; border-top: 3px solid var(--accent); border-radius: var(--radius-lg); background: var(--surface); }
+  .modal__close { position: absolute; top: var(--sp-3); right: var(--sp-4); background: none; border: none; font-size: 1.8rem; cursor: pointer; color: var(--graphite-400); line-height: 1; transition: color var(--transition); }
+  .modal__close:hover { color: var(--ink-900); }
+  .modal__title { font-size: var(--font-xl); margin-bottom: var(--sp-2); }
+  .modal__subtitle { color: var(--accent-text); font-family: var(--font-mono); font-size: var(--font-sm); margin-bottom: var(--sp-4); }
+  .modal__form { display: flex; flex-direction: column; gap: var(--sp-4); margin-top: var(--sp-5); }
+  .modal__form label { display: flex; flex-direction: column; gap: var(--sp-2); }
+  .modal__form label > span:first-child { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .1em; color: var(--color-text-muted); font-weight: 500; }
+  .modal__form input, .modal__form textarea {
+    padding: .8em 1em; border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm); font-size: var(--font-base); font-family: var(--font-sans);
+    background: var(--paper); color: var(--color-text);
+    transition: border-color var(--transition), box-shadow var(--transition), background-color var(--transition);
+  }
+  .modal__form input:focus, .modal__form textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--copper-50); background: var(--surface); }
+  .modal__form textarea { resize: vertical; }
+  .hp-field { display: none !important; }
+  .field-error { color: #c0392b; font-size: var(--font-xs); min-height: 1.2em; }
+  .modal__form-error { color: #c0392b; font-size: var(--font-sm); text-align: center; min-height: 1.6em; }
+  .modal__actions { margin-top: var(--sp-2); }
+  .modal__success { text-align: center; padding: var(--sp-8) var(--sp-4); }
+  .modal__success-icon { display: inline-flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: var(--copper-50); color: var(--accent); font-size: 2rem; line-height: 1; }
+  .modal__success h3 { font-size: var(--font-lg); margin-top: var(--sp-4); }
+
+  /* submit button (raw .btn inside modal — matches Button.astro) */
+  .btn { display: inline-flex; align-items: center; justify-content: center; border: 1px solid transparent; border-radius: var(--radius-sm); font-family: var(--font-sans); font-weight: 600; line-height: 1; cursor: pointer; text-decoration: none; transition: background-color var(--transition), color var(--transition), border-color var(--transition); }
+  .btn--primary { background-color: var(--accent); color: var(--ink-900); border-color: var(--accent); width: 100%; }
+  .btn--primary:hover:not(:disabled) { background-color: var(--copper-700); border-color: var(--copper-700); color: #fff; }
+  .btn--primary:disabled { opacity: .6; cursor: not-allowed; }
+  .btn--lg { padding: 1em 1.9em; font-size: var(--font-base); }
+</style>

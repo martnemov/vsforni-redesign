@@ -1,0 +1,56 @@
+{
+  "id": "230",
+  "urlSlug": "vsf-hf200",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-na-stol/vsf-hf200",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-na-stol/vsf-hf200",
+  "title": "VSF-HF200",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "testomes-s-oprokidyivaniem-na-stol",
+  "image": "/uploads/media/tipping-mixer-1.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1500 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1450 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1650 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "1050 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "12 кВт"
+    },
+    {
+      "label": "Высота опрокидывания",
+      "value": "1050 мм"
+    },
+    {
+      "label": "Количество скоростей",
+      "value": "2"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "200 л"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-HF200",
+    "description": "Ширина: 1500 мм; Глубина: 1450 мм",
+    "ogImage": "/uploads/media/tipping-mixer-1.jpg"
+  }
+}

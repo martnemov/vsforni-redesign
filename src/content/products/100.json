@@ -1,0 +1,60 @@
+{
+  "id": "100",
+  "urlSlug": "vssp-120",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/spiralnyij-testomes-so-staczionarnoj-dezhoj/vssp-120",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/spiralnyij-testomes-so-staczionarnoj-dezhoj/vssp-120",
+  "title": "VSSP 120",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "spiralnyij-testomes-so-staczionarnoj-dezhoj",
+  "image": "/uploads/catalog/spiralnyij-testomes-so-staczionarnoj-dezhoj.jpg",
+  "specs": [
+    {
+      "label": "Макс. кол-во муки",
+      "value": "75 кг"
+    },
+    {
+      "label": "Макс. кол-во теста",
+      "value": "4-120 кг"
+    },
+    {
+      "label": "Размеры  дежи (øxh)",
+      "value": "800x410 мм"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "205 л"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "820 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1350 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1350 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3,5-5,5 кВт"
+    },
+    {
+      "label": "Электрическая мощность (дежи)",
+      "value": "1,1 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "650 мм"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSSP 120",
+    "description": "Макс. кол-во муки: 75 кг; Макс. кол-во теста: 4-120 кг",
+    "ogImage": "/uploads/catalog/spiralnyij-testomes-so-staczionarnoj-dezhoj.jpg"
+  }
+}

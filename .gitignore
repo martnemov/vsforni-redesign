@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+logs/*.jsonl
+.astro/
+/.idea
+.mcp.json
+.vercel

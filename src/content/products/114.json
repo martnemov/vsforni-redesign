@@ -1,0 +1,72 @@
+{
+  "id": "114",
+  "urlSlug": "vsds-610",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-610",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-610",
+  "title": "VSDS 610",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testoraskatochnaya-mashina",
+  "image": "/uploads/catalog/testoraskatochnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Длина валика",
+      "value": "600 мм"
+    },
+    {
+      "label": "Расстояние между валиками",
+      "value": "0-50 мм"
+    },
+    {
+      "label": "Размеры ленты",
+      "value": "584*1000 мм"
+    },
+    {
+      "label": "Скорость ленты",
+      "value": "35 м / сек."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1050 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2485 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "880 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "1775 мм"
+    },
+    {
+      "label": "Высота (H2)",
+      "value": "870 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,75 кВт"
+    },
+    {
+      "label": "Напряжение*",
+      "value": "380 / 50 В / Гц"
+    },
+    {
+      "label": "Масса",
+      "value": "190 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDS 610",
+    "description": "Длина валика: 600 мм; Расстояние между валиками: 0-50 мм",
+    "ogImage": "/uploads/catalog/testoraskatochnaya-mashina.jpg"
+  }
+}

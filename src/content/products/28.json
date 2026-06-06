@@ -1,0 +1,92 @@
+{
+  "id": "28",
+  "urlSlug": "vsrc-10",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/mini-rotaczionnaya-pech-s-rasstoechnyim-shkafom/vsrc-10",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/mini-rotaczionnaya-pech-s-rasstoechnyim-shkafom/vsrc-10",
+  "title": "VSRC 10",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "mini-rotaczionnaya-pech-s-rasstoechnyim-shkafom",
+  "image": "/uploads/catalog/mini-rotaczionnaya-pech-s-rasstoechnyim-shkafom.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "10 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1030 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1280 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1440 мм"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Электрическая"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "24 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380, 50/60 В, Гц"
+    },
+    {
+      "label": "Потребление / давление газа",
+      "value": "- м3/ч ( мбар)"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "- ккал/ч"
+    },
+    {
+      "label": "Масса печи",
+      "value": "310 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3 кВт"
+    },
+    {
+      "label": "Кабины расстойки",
+      "value": ""
+    },
+    {
+      "label": "Высота кабины расстойки (H1)",
+      "value": "775 мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "50 кг"
+    },
+    {
+      "label": "Количество противней расстойной камеры",
+      "value": "16 шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSRC 10",
+    "description": "Количество противней: 10 шт.; Размеры противней: 40x60 см",
+    "ogImage": "/uploads/catalog/mini-rotaczionnaya-pech-s-rasstoechnyim-shkafom.jpg"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "166",
+  "urlSlug": "vsbc-60",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/drobilka-dlya-xleba/vsbc-60",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/drobilka-dlya-xleba/vsbc-60",
+  "title": "VSBC 60",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "drobilka-dlya-xleba",
+  "image": "/uploads/catalog/drobilka-dlya-xleba.jpg",
+  "specs": [
+    {
+      "label": "Производительность (макс.)",
+      "value": "60 кг / ч"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "460 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "520 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1030 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1,75 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "39 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSBC 60",
+    "description": "Производительность (макс.): 60 кг / ч; Ширина (W): 460 мм",
+    "ogImage": "/uploads/catalog/drobilka-dlya-xleba.jpg"
+  }
+}

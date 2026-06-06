@@ -1,0 +1,47 @@
+---
+import type { BreadcrumbItem } from '../../lib/utils';
+
+interface Props {
+  items: BreadcrumbItem[];
+  site: URL | string;
+}
+
+const { items, site } = Astro.props;
+
+const ldItems = items.map((item, i) => ({
+  '@type': 'ListItem',
+  position: i + 1,
+  name: item.label,
+  ...(item.href ? { item: new URL(item.href, typeof site === 'string' ? site : site.href).href } : {}),
+}));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: ldItems,
+};
+---
+<nav class="breadcrumbs" aria-label="Навигация">
+  <ol>
+    {items.map((item, i) => (
+      <li>
+        {i > 0 && <span class="sep" aria-hidden="true">/</span>}
+        {item.href && i < items.length - 1
+          ? <a href={item.href}>{item.label}</a>
+          : <span aria-current={i === items.length - 1 ? 'page' : undefined}>{item.label}</span>
+        }
+      </li>
+    ))}
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+<style>
+  .breadcrumbs { font-family: var(--font-mono); font-size: var(--font-xs); letter-spacing: .03em; color: var(--color-text-muted); padding-block: var(--sp-4); }
+  ol { display: flex; flex-wrap: wrap; gap: .5em; list-style: none; padding: 0; margin: 0; align-items: center; }
+  li { display: flex; align-items: center; gap: .5em; }
+  a { color: var(--color-text-muted); text-decoration: none; }
+  a:hover { color: var(--accent-text); }
+  .sep { color: var(--graphite-300); }
+  span[aria-current='page'] { color: var(--ink-900); }
+</style>

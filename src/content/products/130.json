@@ -1,0 +1,52 @@
+{
+  "id": "130",
+  "urlSlug": "vsf-pcm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/dvuxbunkernaya-testootsadochnaya-mashina/vsf-pcm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/dvuxbunkernaya-testootsadochnaya-mashina/vsf-pcm",
+  "title": "VSF PCM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "dvuxbunkernaya-testootsadochnaya-mashina",
+  "image": "/uploads/catalog/dvuxbunkernaya-testootsadochnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "132 см"
+    },
+    {
+      "label": "Длина",
+      "value": "236 см"
+    },
+    {
+      "label": "Высота",
+      "value": "145 см"
+    },
+    {
+      "label": "Контейнер для теста",
+      "value": "20+20 кг"
+    },
+    {
+      "label": "Вес станка",
+      "value": "500 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "3.5 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 В"
+    },
+    {
+      "label": "Грузоподъемность",
+      "value": "120-160 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF PCM",
+    "description": "Ширина: 132 см; Длина: 236 см",
+    "ogImage": "/uploads/catalog/dvuxbunkernaya-testootsadochnaya-mashina.jpg"
+  }
+}

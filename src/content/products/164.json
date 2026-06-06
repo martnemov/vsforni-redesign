@@ -1,0 +1,44 @@
+{
+  "id": "164",
+  "urlSlug": "vspb-900",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/ustanovka-razduva-paketov/vspb-900",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/ustanovka-razduva-paketov/vspb-900",
+  "title": "VSPB 900",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "ustanovka-razduva-paketov",
+  "image": "/uploads/catalog/ustanovka-razduva-paketov.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "900 шт. / ч"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1130 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "345 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "290 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,1 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "17 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSPB 900",
+    "description": "Производительность: 900 шт. / ч; Ширина (W): 1130 мм",
+    "ogImage": "/uploads/catalog/ustanovka-razduva-paketov.jpg"
+  }
+}

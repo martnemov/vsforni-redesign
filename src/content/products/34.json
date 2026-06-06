@@ -1,0 +1,80 @@
+{
+  "id": "34",
+  "urlSlug": "vspf-4",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-4",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-4",
+  "title": "VSPF 4",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "konvekczionnaya-pech",
+  "image": "/uploads/catalog/konvekczionnaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "4 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "75 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "840 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "600 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "780 мм"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Электрическая"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "6 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "220 / 50 В / Hz"
+    },
+    {
+      "label": "Масса печи",
+      "value": "72 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3 кВт"
+    },
+    {
+      "label": "Высота кабины расстойки (H1)",
+      "value": "800 мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "70 кг"
+    },
+    {
+      "label": "Количество противней кабины расстойки",
+      "value": "8 шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSPF 4",
+    "description": "Количество противней: 4 шт.; Размеры противней: 40x60 см",
+    "ogImage": "/uploads/catalog/konvekczionnaya-pech.jpg"
+  }
+}

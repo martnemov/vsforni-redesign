@@ -1,0 +1,40 @@
+{
+  "id": "274",
+  "urlSlug": "proizvodstvo-xleba",
+  "originalUri": "katalog-oborudovaniya-vs-forni/avtomaticheskie-proizvodstvennyie-linii/liniya-po-proizvodstvu-xleba/proizvodstvo-xleba",
+  "astroUri": "katalog-oborudovaniya-vs-forni/avtomaticheskie-proizvodstvennyie-linii/liniya-po-proizvodstvu-xleba/proizvodstvo-xleba",
+  "title": "Линия по производству хлебобулочных изделий",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "avtomaticheskie-proizvodstvennyie-linii",
+  "groupSlug": "liniya-po-proizvodstvu-xleba",
+  "image": "/uploads/media/liniya-iabattyi-i-xleba.png",
+  "specs": [
+    {
+      "label": "Производительность линии от 600 до 3000 кг/час.",
+      "value": ""
+    },
+    {
+      "label": "Линия адаптивна под любую форму, вес и начинку продукта.",
+      "value": ""
+    },
+    {
+      "label": "Качество и стабильность продукта сохраняется на протяжении всего производства.",
+      "value": ""
+    },
+    {
+      "label": "Минимальное количество операторов на линии, достаточно 2 человек для полного контроля производства.",
+      "value": ""
+    },
+    {
+      "label": "Модульная система позволяет дооснащать линию для производства нового продукта.",
+      "value": ""
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "Линия по производству хлебобулочных изделий",
+    "description": "Производительность линии от 600 до 3000 кг/час.: ; Линия адаптивна под любую форму, вес и начинку продукта.: ",
+    "ogImage": "/uploads/media/liniya-iabattyi-i-xleba.png"
+  }
+}

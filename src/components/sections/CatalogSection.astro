@@ -1,0 +1,78 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { useTranslations, getLang, localizeUrl, plural as plr } from '../../i18n';
+import { catalogUrl, mediaUrl } from '../../lib/utils';
+const lang = getLang(Astro.currentLocale);
+const t = useTranslations(lang);
+
+const categories = await getCollection('categories');
+const groups = await getCollection('groups');
+
+const catMeta = Object.fromEntries(
+  categories.map((cat: CollectionEntry<'categories'>) => {
+    const catGroups = groups.filter((g: CollectionEntry<'groups'>) => g.data.categorySlug === cat.data.urlSlug);
+    return [cat.data.urlSlug, { image: catGroups[0]?.data.image ?? '', count: catGroups.length }];
+  })
+);
+const grpWord = (n: number) => plr(lang, n, ['группа', 'группы', 'групп'], ['group', 'groups']);
+---
+<section class="catalog-section">
+  <div class="container">
+    <span class="kicker">{t.catalog}</span>
+    <h2 class="catalog-section__title">{t.catalogStats}</h2>
+
+    <div class="catalog-tools">
+      <div class="search-stub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        {t.searchPlaceholder}
+        <span class="search-stub__soon">{t.soon}</span>
+      </div>
+    </div>
+
+    <div class="catalog-grid">
+      {categories.map((cat: CollectionEntry<'categories'>) => (
+        <a href={localizeUrl(catalogUrl(cat.data.urlSlug), lang)} class="cat-card">
+          <div class="cat-card__img">
+            {catMeta[cat.data.urlSlug].image && (
+              <img src={mediaUrl(catMeta[cat.data.urlSlug].image)} alt={cat.data.title} loading="lazy" decoding="async" width="400" height="280" />
+            )}
+          </div>
+          <div class="cat-card__body">
+            <h3>{cat.data.title}</h3>
+            <div class="cat-card__foot">
+              <span class="count">{catMeta[cat.data.urlSlug].count} {grpWord(catMeta[cat.data.urlSlug].count)}</span>
+              <span class="cat-card__more">{t.open} →</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .catalog-section { background: var(--color-bg); }
+  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
+  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
+  .catalog-section__title { font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-6); }
+
+  .catalog-tools { margin-bottom: var(--sp-6); }
+  .search-stub { display: flex; align-items: center; gap: .7em; background: var(--surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: .8em 1.1em; color: var(--graphite-400); font-size: var(--font-sm); }
+  .search-stub svg { width: 1.1em; height: 1.1em; color: var(--accent); }
+  .search-stub__soon { margin-left: auto; font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .1em; background: var(--copper-50); color: var(--accent-text); padding: .3em .6em; border-radius: var(--radius-sm); white-space: nowrap; }
+
+  .catalog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-5); }
+  .cat-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition); }
+  .cat-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: var(--copper-200); }
+  .cat-card__img { aspect-ratio: 16/11; overflow: hidden; background: linear-gradient(135deg, var(--paper-2), var(--copper-50)); }
+  .cat-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+  .cat-card:hover .cat-card__img img { transform: scale(1.04); }
+  .cat-card__body { padding: var(--sp-4) var(--sp-5); display: flex; flex-direction: column; gap: var(--sp-3); flex: 1; }
+  .cat-card__body h3 { font-size: var(--font-lg); }
+  .cat-card__foot { margin-top: auto; padding-top: var(--sp-3); border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; }
+  .count { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); }
+  .cat-card__more { font-size: var(--font-sm); font-weight: 600; color: var(--accent-text); }
+
+  @media (max-width: 767px) { .catalog-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 479px) { .catalog-grid { grid-template-columns: 1fr; } }
+</style>

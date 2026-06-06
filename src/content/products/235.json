@@ -1,0 +1,56 @@
+{
+  "id": "235",
+  "urlSlug": "vsf-hf320g",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-v-delitel/vsf-hf320g",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-v-delitel/vsf-hf320g",
+  "title": "VSF-HF320G",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "testomes-s-oprokidyivaniem-v-delitel",
+  "image": "/uploads/media/testomes-s-oprokidyivaniem-vsf.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1700 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1600 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1700 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "1400 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "15 кВт"
+    },
+    {
+      "label": "Высота опрокидывания",
+      "value": "1550 мм"
+    },
+    {
+      "label": "Количество скоростей",
+      "value": "2"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "320 л"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-HF320G",
+    "description": "Ширина: 1700 мм; Глубина: 1600 мм",
+    "ogImage": "/uploads/media/testomes-s-oprokidyivaniem-vsf.jpg"
+  }
+}

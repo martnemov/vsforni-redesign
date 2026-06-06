@@ -1,0 +1,80 @@
+{
+  "id": "30",
+  "urlSlug": "vsrc-15",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/mini-rotaczionnaya-pech/vsrc-15",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/mini-rotaczionnaya-pech/vsrc-15",
+  "title": "VSRC 15",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "mini-rotaczionnaya-pech",
+  "image": "/uploads/catalog/mini-rotaczionnaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "15 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 / 46x66 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1245 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1385 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "1175 мм"
+    },
+    {
+      "label": "Длина (L2)",
+      "value": "1645 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2185 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "1660 мм"
+    },
+    {
+      "label": "Макс. температура",
+      "value": "350 °C"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Электрическая"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "40 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 / 50 В / Гц"
+    },
+    {
+      "label": "Масса печи",
+      "value": "720 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSRC 15",
+    "description": "Количество противней: 15 шт.; Размеры противней: 40x60 / 46x66 см",
+    "ogImage": "/uploads/catalog/mini-rotaczionnaya-pech.jpg"
+  }
+}

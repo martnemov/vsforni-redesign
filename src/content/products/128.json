@@ -1,0 +1,52 @@
+{
+  "id": "128",
+  "urlSlug": "vsf-cm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/testootsadochnaya-mashina/vsf-cm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/testootsadochnaya-mashina/vsf-cm",
+  "title": "VSF CM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "testootsadochnaya-mashina",
+  "image": "/uploads/catalog/testootsadochnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "132 см"
+    },
+    {
+      "label": "Длина",
+      "value": "192 см"
+    },
+    {
+      "label": "Высота",
+      "value": "141 см"
+    },
+    {
+      "label": "Бункер для теста",
+      "value": "20 кг"
+    },
+    {
+      "label": "Вес машины",
+      "value": "400 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "3.5 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 В"
+    },
+    {
+      "label": "Грузоподъемность",
+      "value": "160-250 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF CM",
+    "description": "Ширина: 132 см; Длина: 192 см",
+    "ogImage": "/uploads/catalog/testootsadochnaya-mashina.jpg"
+  }
+}

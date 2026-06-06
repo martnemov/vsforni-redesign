@@ -1,0 +1,56 @@
+{
+  "id": "225",
+  "urlSlug": "vsf-50eh-n",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-na-stol/vsf-50eh-n",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-na-stol/vsf-50eh-n",
+  "title": "VSF-50EH-N",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "testomes-s-oprokidyivaniem-na-stol",
+  "image": "/uploads/media/tipping-mixer-1.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1400 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1380 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1510 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "680 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "6 кВт"
+    },
+    {
+      "label": "Высота опрокидывания",
+      "value": "1100 мм"
+    },
+    {
+      "label": "Количество скоростей",
+      "value": "2"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "50 л"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-50EH-N",
+    "description": "Ширина: 1400 мм; Глубина: 1380 мм",
+    "ogImage": "/uploads/media/tipping-mixer-1.jpg"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "177",
+  "urlSlug": "vsfp-15-6",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/shkaf-rasstojnyij/vsfp-15-6",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/shkaf-rasstojnyij/vsfp-15-6",
+  "title": "VSFP 15-6",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "shkaf-rasstojnyij",
+  "image": "/uploads/catalog/shkaf-rasstojnyij.jpg",
+  "specs": [
+    {
+      "label": "Количество тележек* (размеры тележек)",
+      "value": "6x(60x80), 6x(60x90) шт.(cm)"
+    },
+    {
+      "label": "Количество дверей**",
+      "value": "2 шт."
+    },
+    {
+      "label": "Толщина стенки",
+      "value": "60 мм"
+    },
+    {
+      "label": "Замок на двери",
+      "value": "✓"
+    },
+    {
+      "label": "Внутренняя ручка двери",
+      "value": "✓"
+    },
+    {
+      "label": "Пол***",
+      "value": "×"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1950 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2970 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2000 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "- кВт"
+    },
+    {
+      "label": "Масса",
+      "value": "380 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSFP 15-6",
+    "description": "Количество тележек* (размеры тележек): 6x(60x80), 6x(60x90) шт.(cm); Количество дверей**: 2 шт.",
+    "ogImage": "/uploads/catalog/shkaf-rasstojnyij.jpg"
+  }
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /api/
+Disallow: *?
+
+Host: vsforni.ru
+Sitemap: https://vsforni.ru/sitemap-index.xml

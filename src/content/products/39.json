@@ -1,0 +1,84 @@
+{
+  "id": "39",
+  "urlSlug": "vspf-14g",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-14g",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-14g",
+  "title": "VSPF 14G",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "konvekczionnaya-pech",
+  "image": "/uploads/catalog/konvekczionnaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "14 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "850 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2030 мм"
+    },
+    {
+      "label": "Управления",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "2,25 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "220 / 50 В / Hz"
+    },
+    {
+      "label": "Потребление / давление газа",
+      "value": "2 / 20 м3 / ( мбар)"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "30000 ккал/ч"
+    },
+    {
+      "label": "Масса печи",
+      "value": "300 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "- кВт"
+    },
+    {
+      "label": "Высота кабины расстойки (H1)",
+      "value": "- мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "- кг"
+    },
+    {
+      "label": "Количество противней расстойной камеры",
+      "value": "- шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSPF 14G",
+    "description": "Количество противней: 14 шт.; Размеры противней: 40x60 см",
+    "ogImage": "/uploads/catalog/konvekczionnaya-pech.jpg"
+  }
+}

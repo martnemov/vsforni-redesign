@@ -1,0 +1,56 @@
+{
+  "id": "203",
+  "urlSlug": "vskn-mtfk-4",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-s-okrugleniem/vskn-mtfk-4",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-s-okrugleniem/vskn-mtfk-4",
+  "title": "VSKN-MTFK-4",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testodelitel-s-okrugleniem",
+  "image": "/uploads/media/testodelitel-s-okrugleniem-vsforni.jpg",
+  "specs": [
+    {
+      "label": "Диапазон деления",
+      "value": "30-210 гр"
+    },
+    {
+      "label": "Производительность",
+      "value": "8000 шт/час"
+    },
+    {
+      "label": "Кол-во поршней",
+      "value": "4 шт"
+    },
+    {
+      "label": "Эл. мощность",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "4,2 кВт"
+    },
+    {
+      "label": "Ширина",
+      "value": "2000 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1140 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1650 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "1000 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKN-MTFK-4",
+    "description": "Диапазон деления: 30-210 гр; Производительность: 8000 шт/час",
+    "ogImage": "/uploads/media/testodelitel-s-okrugleniem-vsforni.jpg"
+  }
+}

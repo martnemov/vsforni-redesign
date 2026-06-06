@@ -1,0 +1,44 @@
+{
+  "id": "146",
+  "urlSlug": "vsf-pm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/mashina-dlya-proizvodstva-varenikov,-pelmenej,-ravioli/vsf-pm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/mashina-dlya-proizvodstva-varenikov,-pelmenej,-ravioli/vsf-pm",
+  "title": "VSF PM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "mashina-dlya-proizvodstva-varenikov,-pelmenej,-ravioli",
+  "image": "/uploads/catalog/mashina-dlya-proizvodstva-varenikov-pelmenej-ravioli.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "65 см"
+    },
+    {
+      "label": "Длина",
+      "value": "108 см"
+    },
+    {
+      "label": "Высота",
+      "value": "117 см"
+    },
+    {
+      "label": "Вес станка",
+      "value": "120 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "2.3 кВт"
+    },
+    {
+      "label": "Вид подключения",
+      "value": "2 фаза"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF PM",
+    "description": "Ширина: 65 см; Длина: 108 см",
+    "ogImage": "/uploads/catalog/mashina-dlya-proizvodstva-varenikov-pelmenej-ravioli.jpg"
+  }
+}

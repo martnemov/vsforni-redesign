@@ -1,0 +1,68 @@
+{
+  "id": "86",
+  "urlSlug": "vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel-okruglitel/vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel-okruglitel/vsdr-15,-vsdr-22,-vsdr-30,-vsdr-30s",
+  "title": "VSDR 15, VSDR 22, VSDR 30, VSDR 30S",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testodelitel-okruglitel",
+  "image": "/uploads/catalog/testodelitel-okruglitel.jpg",
+  "specs": [
+    {
+      "label": "Управление",
+      "value": "1/2-автомат."
+    },
+    {
+      "label": "Количество деления / (диапазон)",
+      "value": "15 (100-600), 22 / (50-180), 30 / (40-135), 30S / (25-90) шт. / г"
+    },
+    {
+      "label": "Количество деления / (диапазон)",
+      "value": "15 (2700), 22 / (3960), 30 / (5400), 30S / (5400) шт./ (шт./ часов)"
+    },
+    {
+      "label": "Количество цилиндров",
+      "value": "- шт."
+    },
+    {
+      "label": "Отверстие",
+      "value": "70 мм"
+    },
+    {
+      "label": "Вместимость",
+      "value": "4 кг"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "640 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "670 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1910 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "868 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,55 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "180 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDR 15, VSDR 22, VSDR 30, VSDR 30S",
+    "description": "Управление: 1/2-автомат.; Количество деления / (диапазон): 15 (100-600), 22 / (50-180), 30 / (40-135), 30S / (25-90) шт. / г",
+    "ogImage": "/uploads/catalog/testodelitel-okruglitel.jpg"
+  }
+}

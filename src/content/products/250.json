@@ -1,0 +1,40 @@
+{
+  "id": "250",
+  "urlSlug": "vsf-t-2000",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/eksczentrikovyij-testookruglitel/vsf-t-2000",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/eksczentrikovyij-testookruglitel/vsf-t-2000",
+  "title": "VSF-T 2000",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "eksczentrikovyij-testookruglitel",
+  "image": "/uploads/media/crop.jpeg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "2000 шт/час"
+    },
+    {
+      "label": "Диапазон округления",
+      "value": "400-4000 гр"
+    },
+    {
+      "label": "Габариты",
+      "value": "920*1100*1265 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "260 кг"
+    },
+    {
+      "label": "Эл. мощность",
+      "value": "0,75 кВт / 380В"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-T 2000",
+    "description": "Производительность: 2000 шт/час; Диапазон округления: 400-4000 гр",
+    "ogImage": "/uploads/media/crop.jpeg"
+  }
+}

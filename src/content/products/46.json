@@ -1,0 +1,60 @@
+{
+  "id": "46",
+  "urlSlug": "vssp-160m",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/spiralnyij-testomes-s-podkatnoj-dezhoj/vssp-160m",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/spiralnyij-testomes-s-podkatnoj-dezhoj/vssp-160m",
+  "title": "VSSP 160M",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "spiralnyij-testomes-s-podkatnoj-dezhoj",
+  "image": "/uploads/catalog/spiralnyij-testomes-s-podkatnoj-dezhoj.jpg",
+  "specs": [
+    {
+      "label": "Макс. кол-во муки",
+      "value": "100 кг"
+    },
+    {
+      "label": "Макс. кол-во теста",
+      "value": "160 кг"
+    },
+    {
+      "label": "Размеры дежи (øxh)",
+      "value": "900x470 мм"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "300 л"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "990 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1550 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1560 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "10 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "1250 кг"
+    },
+    {
+      "label": "Масса дополнительной дежи",
+      "value": "160 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSSP 160M",
+    "description": "Макс. кол-во муки: 100 кг; Макс. кол-во теста: 160 кг",
+    "ogImage": "/uploads/catalog/spiralnyij-testomes-s-podkatnoj-dezhoj.jpg"
+  }
+}

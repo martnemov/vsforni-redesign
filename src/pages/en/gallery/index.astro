@@ -1,0 +1,96 @@
+---
+export const prerender = true;
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/ui/Breadcrumbs.astro';
+import { useTranslations, getLang, localizeUrl } from '../../../i18n';
+import galleryItems from '../../../../data/gallery-items.json';
+import { mediaUrl } from '../../../lib/utils';
+
+interface GalleryItem {
+  title: string;
+  description: string;
+  src: string;
+  poster?: string;
+  isVideo: boolean;
+}
+
+const lang = getLang(Astro.currentLocale);
+const t = useTranslations(lang);
+const items = galleryItems as GalleryItem[];
+const breadcrumbs = [
+  { label: t.breadcrumbHome, href: localizeUrl('/', lang) },
+  { label: t.galleryTitle },
+];
+---
+<BaseLayout
+  title={t.galleryTitle}
+  description="Фотогалерея оборудования VS FORNI — фото и видео продукции."
+>
+  <main>
+    <section class="phero">
+      <div class="container">
+        <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
+        <span class="kicker">{t.galleryKicker}</span>
+        <h1>{t.galleryTitle}</h1>
+        <p class="phero__lead">{t.galleryLead}</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery-grid">
+          {items.map((item) => (
+            <div class="gallery-item" data-src={mediaUrl(item.src)} data-type={item.isVideo ? 'video' : 'image'}>
+              {item.isVideo ? (
+                <div class="gallery-item__media gallery-item__media--video">
+                  <video src={mediaUrl(item.src)} poster={item.poster ? mediaUrl(item.poster) : undefined} preload="metadata" muted playsinline width="400" height="300"></video>
+                  <span class="gallery-item__play" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                  </span>
+                </div>
+              ) : (
+                <div class="gallery-item__media">
+                  <img src={mediaUrl(item.src)} alt={item.title} loading="lazy" decoding="async" width="400" height="300" />
+                </div>
+              )}
+              {item.title && <p class="gallery-item__title">{item.title}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  document.querySelectorAll('.gallery-item').forEach((item) => {
+    const media = item.querySelector('video');
+    if (!media) return;
+    item.querySelector('.gallery-item__media')?.addEventListener('click', () => {
+      if (media.paused) {
+        media.play();
+        (item.querySelector('.gallery-item__play') as HTMLElement | null)?.style.setProperty('display', 'none');
+      } else {
+        media.pause();
+        (item.querySelector('.gallery-item__play') as HTMLElement | null)?.style.setProperty('display', 'flex');
+      }
+    });
+  });
+</script>
+
+<style>
+  .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
+  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
+  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
+  .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
+  .phero__lead { color: var(--color-text-muted); font-size: var(--font-lg); margin-top: var(--sp-4); }
+
+  .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--sp-5); }
+  .gallery-item { display: flex; flex-direction: column; gap: var(--sp-3); }
+  .gallery-item__media { position: relative; overflow: hidden; border-radius: var(--radius-lg); border: 1px solid var(--color-border); aspect-ratio: 4/3; background: var(--ink-900); cursor: pointer; transition: box-shadow var(--transition), transform var(--transition); }
+  .gallery-item__media:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+  .gallery-item__media img, .gallery-item__media video { width: 100%; height: 100%; object-fit: cover; }
+  .gallery-item__play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+  .gallery-item__play svg { width: 56px; height: 56px; color: #fff; background: var(--accent); border-radius: 50%; padding: 14px; box-shadow: 0 6px 20px rgba(27,23,20,.4); }
+  .gallery-item__title { font-size: var(--font-sm); color: var(--color-text-muted); }
+</style>

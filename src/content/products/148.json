@@ -1,0 +1,60 @@
+{
+  "id": "148",
+  "urlSlug": "vsbs-1500",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/avtomaticheskaya-xleborezka-s-ustrojstvom-razduvaniya-paketov/vsbs-1500",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/avtomaticheskaya-xleborezka-s-ustrojstvom-razduvaniya-paketov/vsbs-1500",
+  "title": "VSBS 1500",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "avtomaticheskaya-xleborezka-s-ustrojstvom-razduvaniya-paketov",
+  "image": "/uploads/catalog/avtomaticheskaya-xleborezka-s-ustrojstvom-razduvaniya-paketov.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "1500 шт./ч"
+    },
+    {
+      "label": "Толщина нарезки",
+      "value": "11 - 20"
+    },
+    {
+      "label": "Количество ножей",
+      "value": "44 - 28 шт."
+    },
+    {
+      "label": "Макс. длина хлеба",
+      "value": "450 мм"
+    },
+    {
+      "label": "Высота хлеба (мин. - макс.)",
+      "value": "60-145 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "656 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1885 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1330 мм"
+    },
+    {
+      "label": "Электрическая мощность (220В / 380В)",
+      "value": "1,21 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "450 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSBS 1500",
+    "description": "Производительность: 1500 шт./ч; Толщина нарезки: 11 - 20",
+    "ogImage": "/uploads/catalog/avtomaticheskaya-xleborezka-s-ustrojstvom-razduvaniya-paketov.jpg"
+  }
+}

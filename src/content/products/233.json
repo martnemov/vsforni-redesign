@@ -1,0 +1,56 @@
+{
+  "id": "233",
+  "urlSlug": "vsf-hf400",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-na-stol/vsf-hf400",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-na-stol/vsf-hf400",
+  "title": "VSF-HF400",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "testomes-s-oprokidyivaniem-na-stol",
+  "image": "/uploads/media/tipping-mixer-1.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1850 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1750 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1850 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "1500 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "15 кВт"
+    },
+    {
+      "label": "Высота опрокидывания",
+      "value": "920 мм"
+    },
+    {
+      "label": "Количество скоростей",
+      "value": "2"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "400 л"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-HF400",
+    "description": "Ширина: 1850 мм; Глубина: 1750 мм",
+    "ogImage": "/uploads/media/tipping-mixer-1.jpg"
+  }
+}

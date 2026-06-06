@@ -1,0 +1,68 @@
+{
+  "id": "84",
+  "urlSlug": "vshd-1530a",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530a",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)/vshd-1530a",
+  "title": "VSHD 1530A",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "gidravlicheskij-testodelitel-(kvadratnoe-razdelenie)",
+  "image": "/uploads/catalog/gidravlicheskij-testodelitel-kvadratnoe-razdelenie.jpg",
+  "specs": [
+    {
+      "label": "Количество деления",
+      "value": "5/30 шт."
+    },
+    {
+      "label": "Диапазон",
+      "value": "150-1050, 90-520 г"
+    },
+    {
+      "label": "Производительность",
+      "value": "1350 (30), 2700 (15) шт./ч"
+    },
+    {
+      "label": "Вместимость",
+      "value": "16 кг"
+    },
+    {
+      "label": "Глубина бункера",
+      "value": "120 мм"
+    },
+    {
+      "label": "Размеры деления",
+      "value": "80x80 (30), 163x80 (15) мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "600 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "700 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1120 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "1635 мм"
+    },
+    {
+      "label": "Элек. мощность",
+      "value": "0,75 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "240 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSHD 1530A",
+    "description": "Количество деления: 5/30 шт.; Диапазон: 150-1050, 90-520 г",
+    "ogImage": "/uploads/catalog/gidravlicheskij-testodelitel-kvadratnoe-razdelenie.jpg"
+  }
+}

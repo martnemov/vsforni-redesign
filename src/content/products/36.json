@@ -1,0 +1,88 @@
+{
+  "id": "36",
+  "urlSlug": "vspf-9",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-9",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-9",
+  "title": "VSPF 9",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "konvekczionnaya-pech",
+  "image": "/uploads/catalog/konvekczionnaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "9 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "850 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Источник энергии",
+      "value": "Электрическая"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "20 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 / 50 В / Hz"
+    },
+    {
+      "label": "Потребление / давление газа",
+      "value": "- м3 / ( мбар)"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "- ккал/ч"
+    },
+    {
+      "label": "Масса печи",
+      "value": "225 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "2,5 кВт"
+    },
+    {
+      "label": "Высота кабины расстойки (H1)",
+      "value": "600 мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "50 кг"
+    },
+    {
+      "label": "Количество противней расстойной камеры",
+      "value": "10 шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSPF 9",
+    "description": "Количество противней: 9 шт.; Размеры противней: 40x60 см",
+    "ogImage": "/uploads/catalog/konvekczionnaya-pech.jpg"
+  }
+}

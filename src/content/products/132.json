@@ -1,0 +1,52 @@
+{
+  "id": "132",
+  "urlSlug": "vsf-lm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/testootsadochnaya-liniya/vsf-lm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/testootsadochnaya-liniya/vsf-lm",
+  "title": "VSF LM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "testootsadochnaya-liniya",
+  "image": "/uploads/catalog/testootsadochnaya-liniya.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "145 см"
+    },
+    {
+      "label": "Длина",
+      "value": "650 см"
+    },
+    {
+      "label": "Высота",
+      "value": "155 см"
+    },
+    {
+      "label": "Бункер для теста",
+      "value": "30 кг"
+    },
+    {
+      "label": "Вес станка",
+      "value": "750 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "5 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 В"
+    },
+    {
+      "label": "Емкость (в час)",
+      "value": "350-650 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF LM",
+    "description": "Ширина: 145 см; Длина: 650 см",
+    "ogImage": "/uploads/catalog/testootsadochnaya-liniya.jpg"
+  }
+}

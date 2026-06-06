@@ -1,0 +1,56 @@
+{
+  "id": "49",
+  "urlSlug": "vsp-20",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/planetarnyij-mikser/vsp-20",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/planetarnyij-mikser/vsp-20",
+  "title": "VSP 20",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "planetarnyij-mikser",
+  "image": "/uploads/catalog/planetarnyij-mikser.jpg",
+  "specs": [
+    {
+      "label": "Емкость дежи",
+      "value": "20 л"
+    },
+    {
+      "label": "Вращения двигателя",
+      "value": "Вариатор об/мин"
+    },
+    {
+      "label": "Вращения насадки",
+      "value": "100-415 об/мин"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "500 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "650 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "770 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "410 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,75 (220В) кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "81 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSP 20",
+    "description": "Емкость дежи: 20 л; Вращения двигателя: Вариатор об/мин",
+    "ogImage": "/uploads/catalog/planetarnyij-mikser.jpg"
+  }
+}

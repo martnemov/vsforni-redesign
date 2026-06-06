@@ -1,0 +1,74 @@
+:root {
+  /* ============================================================
+     VS FORNI design tokens — reskin "Жар" (графит + янтарь)
+     Модернизировано: корень 16px + fluid clamp (без легаси 10px-масштабирования).
+     Имена легаси-переменных сохранены как алиасы — контракт для компонентов.
+     ============================================================ */
+
+  /* --- root font size: modernized (was 10px + media scaling) --- */
+  font-size: 16px;
+
+  /* --- palette --- */
+  --ink-900:#1B1714; --ink-800:#272019; --graphite-700:#3A322A; --graphite-600:#4A4036;
+  --graphite-500:#6B6259; --graphite-400:#9A9088; --graphite-300:#C2BBB0;
+  --paper:#FAF8F4; --paper-2:#F2EDE5; --surface:#FFFFFF; --line:#EAE4DB;
+  --copper-deep:#8A4A09; --copper-700:#B86410; --copper:#E07B1A; --copper-bright:#F6A23E;
+  --copper-200:#F6D9B3; --copper-50:#FCEEDB;
+  --accent:#E07B1A; --accent-hover:#8A4A09; --accent-text:#A8560C;
+
+  /* --- legacy-name aliases (mapped to new palette) --- */
+  --color-bg:           var(--paper);
+  --color-bg-dark:      var(--ink-900);
+  --color-bg-black:     #000000;
+  --color-bg-alt:       var(--ink-800);
+  --color-surface:      var(--surface);
+  --color-accent:       var(--copper);
+  --color-accent-hover: var(--copper-deep);
+  --color-secondary:    var(--accent-text);
+  --color-text:         var(--ink-800);
+  --color-text-muted:   var(--graphite-500);
+  --color-text-light:   var(--graphite-300);
+  --color-border:       var(--line);
+
+  /* --- typography --- */
+  --font-sans:    'Onest', system-ui, -apple-system, sans-serif;
+  --font-serif:   'Onest', system-ui, sans-serif;     /* заголовки — гротеск */
+  --font-display: 'Onest', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --font-xs:   clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
+  --font-sm:   clamp(0.875rem, 0.84rem + 0.18vw, 0.9375rem);
+  --font-base: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  --font-lg:   clamp(1.125rem, 1.06rem + 0.32vw, 1.25rem);
+  --font-xl:   clamp(1.375rem, 1.25rem + 0.6vw, 1.625rem);
+  --font-2xl:  clamp(1.75rem, 1.5rem + 1.2vw, 2.25rem);
+  --font-3xl:  clamp(2.25rem, 1.8rem + 2.2vw, 3.25rem);
+  --font-4xl:  clamp(2.75rem, 2rem + 3.6vw, 4.5rem);
+  --line-height: 1.6;
+
+  /* --- spacing (real px @16px root) --- */
+  --sp-1:  0.25rem;  /* 4  */
+  --sp-2:  0.5rem;   /* 8  */
+  --sp-3:  0.75rem;  /* 12 */
+  --sp-4:  1rem;     /* 16 */
+  --sp-5:  1.5rem;   /* 24 */
+  --sp-6:  2rem;     /* 32 */
+  --sp-8:  3rem;     /* 48 */
+  --sp-10: 4rem;     /* 64 */
+  --sp-12: 5rem;     /* 80 */
+  --sp-16: 7.5rem;   /* 120 */
+
+  /* --- layout --- */
+  --container-max: 1320px;
+  --container-pad: clamp(1.25rem, 4vw, 3rem);
+  --section-py:    clamp(3rem, 2rem + 5vw, 6rem);
+
+  /* --- ui --- */
+  --radius-sm:   0.25rem;
+  --radius-md:   0.5rem;
+  --radius-lg:   0.625rem;
+  --radius-full: 9999px;
+  --shadow-card:  0 1px 2px rgba(27,23,20,.04), 0 8px 28px rgba(27,23,20,.07);
+  --shadow-hover: 0 2px 6px rgba(27,23,20,.06), 0 18px 48px rgba(27,23,20,.12);
+  --transition:   0.22s cubic-bezier(.2,.7,.3,1);
+}

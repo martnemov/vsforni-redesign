@@ -1,0 +1,72 @@
+{
+  "id": "113",
+  "urlSlug": "vsds-507",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testoraskatochnaya-mashina/vsds-507",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testoraskatochnaya-mashina/vsds-507",
+  "title": "VSDS 507",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testoraskatochnaya-mashina",
+  "image": "/uploads/catalog/testoraskatochnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Длина валика",
+      "value": "500 мм"
+    },
+    {
+      "label": "Расстояние между валиками",
+      "value": "0-40 мм"
+    },
+    {
+      "label": "Размеры ленты",
+      "value": "488*700 мм"
+    },
+    {
+      "label": "Скорость ленты",
+      "value": "35 м / сек."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "865 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1500 мм"
+    },
+    {
+      "label": "Длина (L1)",
+      "value": "785 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "630 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "750 мм"
+    },
+    {
+      "label": "Высота (H2)",
+      "value": "- мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,55 кВт"
+    },
+    {
+      "label": "Напряжение*",
+      "value": "380 / 50 В / Гц"
+    },
+    {
+      "label": "Масса",
+      "value": "115 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDS 507",
+    "description": "Длина валика: 500 мм; Расстояние между валиками: 0-40 мм",
+    "ogImage": "/uploads/catalog/testoraskatochnaya-mashina.jpg"
+  }
+}

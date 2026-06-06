@@ -1,0 +1,48 @@
+{
+  "id": "90",
+  "urlSlug": "vsmd-11",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-11",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-11",
+  "title": "VSMD 11",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "ruchnoj-testodelitel",
+  "image": "/uploads/catalog/ruchnoj-testodelitel.jpg",
+  "specs": [
+    {
+      "label": "Количество деления",
+      "value": "11 шт."
+    },
+    {
+      "label": "Диапазон",
+      "value": "100-590 г"
+    },
+    {
+      "label": "Вместимость",
+      "value": "6,5 кг"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "550 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "450 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1900 мм"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "45 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSMD 11",
+    "description": "Количество деления: 11 шт.; Диапазон: 100-590 г",
+    "ogImage": "/uploads/catalog/ruchnoj-testodelitel.jpg"
+  }
+}

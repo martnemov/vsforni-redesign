@@ -1,0 +1,48 @@
+{
+  "id": "213",
+  "urlSlug": "vsf-c260",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/shtampovochnaya-mashina/vsf-c260",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/shtampovochnaya-mashina/vsf-c260",
+  "title": "VSF-C260",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "shtampovochnaya-mashina",
+  "image": "/uploads/media/shtampovka-vsf.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "20-120 шт/мин"
+    },
+    {
+      "label": "Мощность",
+      "value": "0,4 кВт"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "220/380 В"
+    },
+    {
+      "label": "Ширина",
+      "value": "1220 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "610 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1040 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "120 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-C260",
+    "description": "Производительность: 20-120 шт/мин; Мощность: 0,4 кВт",
+    "ogImage": "/uploads/media/shtampovka-vsf.jpg"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "211",
+  "urlSlug": "vsf-bx180-3",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/ekstruzionnaya-mashina/vsf-bx180-3",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/ekstruzionnaya-mashina/vsf-bx180-3",
+  "title": "VSF-BX180-3",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "ekstruzionnaya-mashina",
+  "image": "/uploads/media/ekstruziya-vsf.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "40-99 шт/мин"
+    },
+    {
+      "label": "Вес заготовок",
+      "value": "10-275 гр"
+    },
+    {
+      "label": "Мощность",
+      "value": "2,6 кВт"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "220/380 В"
+    },
+    {
+      "label": "Ширина",
+      "value": "1780 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "860 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1830 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "250 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-BX180-3",
+    "description": "Производительность: 40-99 шт/мин; Вес заготовок: 10-275 гр",
+    "ogImage": "/uploads/media/ekstruziya-vsf.jpg"
+  }
+}

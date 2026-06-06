@@ -1,0 +1,28 @@
+{
+  "id": "239",
+  "urlSlug": "izgotavlivaetsya-pod-zakaz-na-lyubuyu-podovuyu-pech",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/avtomaticheskij-posadchik-vsf-rbt/izgotavlivaetsya-pod-zakaz-na-lyubuyu-podovuyu-pech",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/avtomaticheskij-posadchik-vsf-rbt/izgotavlivaetsya-pod-zakaz-na-lyubuyu-podovuyu-pech",
+  "title": "VSF RBT",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "avtomaticheskij-posadchik-vsf-rbt",
+  "image": "/uploads/media/vsf-robot-rus.jpg",
+  "specs": [
+    {
+      "label": "Изготавливается под заказ на любую подовую печь",
+      "value": ""
+    },
+    {
+      "label": "Опционально:",
+      "value": "Установка загрузки"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF RBT",
+    "description": "Изготавливается под заказ на любую подовую печь: ; Опционально:: Установка загрузки",
+    "ogImage": "/uploads/media/vsf-robot-rus.jpg"
+  }
+}

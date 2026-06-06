@@ -1,0 +1,80 @@
+{
+  "id": "37",
+  "urlSlug": "vspf-14",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-14",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/konvekczionnaya-pech/vspf-14",
+  "title": "VSPF 14",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "konvekczionnaya-pech",
+  "image": "/uploads/catalog/konvekczionnaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "14 шт."
+    },
+    {
+      "label": "Размеры противней",
+      "value": "40x60 см"
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "850 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1250 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2030 мм"
+    },
+    {
+      "label": "Управление",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "27 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 / 50 В / Hz"
+    },
+    {
+      "label": "Потребление / давление газа",
+      "value": "- м3 / ( мбар)"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "- ккал/ч"
+    },
+    {
+      "label": "Масса печи",
+      "value": "250 кг"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "- кВт"
+    },
+    {
+      "label": "Высота кабины расстойки (H1)",
+      "value": "- мм"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "- кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSPF 14",
+    "description": "Количество противней: 14 шт.; Размеры противней: 40x60 см",
+    "ogImage": "/uploads/catalog/konvekczionnaya-pech.jpg"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "185",
+  "urlSlug": "vsm-d600",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/oxladitel-vodyi/vsm-d600",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/oxladitel-vodyi/vsm-d600",
+  "title": "VSM-D600",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "oxladitel-vodyi",
+  "image": "/uploads/catalog/oxladitel-vodyi.jpg",
+  "specs": [
+    {
+      "label": "Емкость цистерны",
+      "value": "600 л"
+    },
+    {
+      "label": "Производительность",
+      "value": "100 л / ч"
+    },
+    {
+      "label": "Напряжение питания",
+      "value": "220 / 50 В / Гц"
+    },
+    {
+      "label": "Минимальная температура охлаждения",
+      "value": "1,5 °C"
+    },
+    {
+      "label": "Ширина  (W)",
+      "value": "960 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "960 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2030 мм"
+    },
+    {
+      "label": "Электрическая мощность компрессора (герметический)",
+      "value": "0,95 кВт"
+    },
+    {
+      "label": "Подключение воды (вход - выход)",
+      "value": "½ - ¾ дюйм"
+    },
+    {
+      "label": "Подключение воды (разряд - перелив)",
+      "value": "¾ - ½ дюйм"
+    },
+    {
+      "label": "Масса",
+      "value": "192 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSM-D600",
+    "description": "Емкость цистерны: 600 л; Производительность: 100 л / ч",
+    "ogImage": "/uploads/catalog/oxladitel-vodyi.jpg"
+  }
+}

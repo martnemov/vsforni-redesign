@@ -1,0 +1,60 @@
+{
+  "id": "170",
+  "urlSlug": "vsk-2500",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/klipsator/vsk-2500",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/klipsator/vsk-2500",
+  "title": "VSK 2500",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "klipsator",
+  "image": "/uploads/catalog/klipsator.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "2500 шт. / ч"
+    },
+    {
+      "label": "Толщина ленты",
+      "value": "0,7 - 0,8 мм"
+    },
+    {
+      "label": "Высота ленты",
+      "value": "8 мм"
+    },
+    {
+      "label": "Давление",
+      "value": "6 мБар"
+    },
+    {
+      "label": "Расход воздуха",
+      "value": "50 л/мин."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "670 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "800 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1050 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "110 Вт"
+    },
+    {
+      "label": "Масса",
+      "value": "35 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSK 2500",
+    "description": "Производительность: 2500 шт. / ч; Толщина ленты: 0,7 - 0,8 мм",
+    "ogImage": "/uploads/catalog/klipsator.jpg"
+  }
+}

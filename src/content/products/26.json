@@ -1,0 +1,80 @@
+{
+  "id": "26",
+  "urlSlug": "vskf-12",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/podovaya-pech/vskf-12",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/podovaya-pech/vskf-12",
+  "title": "VSKF 12",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "podovaya-pech",
+  "image": "/uploads/catalog/podovaya-pech.jpg",
+  "specs": [
+    {
+      "label": "Ширина (W)",
+      "value": "1600 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1650 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "350 мм"
+    },
+    {
+      "label": "Внутренняя ширина печи",
+      "value": "1200 мм"
+    },
+    {
+      "label": "Внутренняя длина печи",
+      "value": "900 мм"
+    },
+    {
+      "label": "Внутренняя высота печи",
+      "value": "190 мм"
+    },
+    {
+      "label": "Высота вытяжки(H2)",
+      "value": "250 мм"
+    },
+    {
+      "label": "Высота кабины расстойки (H1)\"",
+      "value": "650 мм"
+    },
+    {
+      "label": "Количество противней на каждом ярусе (размеры противней)",
+      "value": "6 (35x45); 4 (40x60); 2 (60x80) шт. (см)"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "10+3 кВт"
+    },
+    {
+      "label": "Электрическая мощность кабины расстойки",
+      "value": "3,5 кВт"
+    },
+    {
+      "label": "Управление",
+      "value": ""
+    },
+    {
+      "label": "Масса печи (один ярус)",
+      "value": "270 кг"
+    },
+    {
+      "label": "Масса кабины расстойки",
+      "value": "150 кг"
+    },
+    {
+      "label": "Количество противней расстойной камеры",
+      "value": "16 шт."
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKF 12",
+    "description": "Ширина (W): 1600 мм; Длина (L): 1650 мм",
+    "ogImage": "/uploads/catalog/podovaya-pech.jpg"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "51",
+  "urlSlug": "vsp-60",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/planetarnyij-mikser/vsp-60",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/planetarnyij-mikser/vsp-60",
+  "title": "VSP 60",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "planetarnyij-mikser",
+  "image": "/uploads/catalog/planetarnyij-mikser.jpg",
+  "specs": [
+    {
+      "label": "Емкость дежи",
+      "value": "60 л"
+    },
+    {
+      "label": "Вращения двигателя",
+      "value": "55 - 110 - 120 об/мин"
+    },
+    {
+      "label": "Вращения насадки",
+      "value": "140 - 280 - 520 об/мин"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "630 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "910 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1370 мм"
+    },
+    {
+      "label": "Высота (H1)",
+      "value": "810 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1- 1,4 - 1,5 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "230 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSP 60",
+    "description": "Емкость дежи: 60 л; Вращения двигателя: 55 - 110 - 120 об/мин",
+    "ogImage": "/uploads/catalog/planetarnyij-mikser.jpg"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "134",
+  "urlSlug": "vsf-mini-fm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/nastolnaya-testootsadochnaya-mashina-s-nachinkoj/vsf-mini-fm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/nastolnaya-testootsadochnaya-mashina-s-nachinkoj/vsf-mini-fm",
+  "title": "VSF Mini FM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "nastolnaya-testootsadochnaya-mashina-s-nachinkoj",
+  "image": "/uploads/catalog/nastolnaya-testootsadochnaya-mashina-s-nachinkoj.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "39 см"
+    },
+    {
+      "label": "Длина",
+      "value": "84 см"
+    },
+    {
+      "label": "Высота",
+      "value": "78 см"
+    },
+    {
+      "label": "Бункер для теста",
+      "value": "10 кг"
+    },
+    {
+      "label": "Вес машины",
+      "value": "85 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "1 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "220 В"
+    },
+    {
+      "label": "Емкость (в час)",
+      "value": "20-40 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF Mini FM",
+    "description": "Ширина: 39 см; Длина: 84 см",
+    "ogImage": "/uploads/catalog/nastolnaya-testootsadochnaya-mashina-s-nachinkoj.jpg"
+  }
+}

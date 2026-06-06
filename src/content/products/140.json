@@ -1,0 +1,48 @@
+{
+  "id": "140",
+  "urlSlug": "vsf-tm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/avtomaticheskij-ukladchik-na-protivni/vsf-tm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/avtomaticheskij-ukladchik-na-protivni/vsf-tm",
+  "title": "VSF TM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "avtomaticheskij-ukladchik-na-protivni",
+  "image": "/uploads/catalog/avtomaticheskij-ukladchik-na-protivni.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "140 см"
+    },
+    {
+      "label": "Длина",
+      "value": "240 см"
+    },
+    {
+      "label": "Высота",
+      "value": "115 см"
+    },
+    {
+      "label": "Вес машины",
+      "value": "300 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "1 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 В"
+    },
+    {
+      "label": "Емкость",
+      "value": "50-100 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF TM",
+    "description": "Ширина: 140 см; Длина: 240 см",
+    "ogImage": "/uploads/catalog/avtomaticheskij-ukladchik-na-protivni.jpg"
+  }
+}

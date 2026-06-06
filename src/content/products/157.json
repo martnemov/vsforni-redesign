@@ -1,0 +1,52 @@
+{
+  "id": "157",
+  "urlSlug": "vskf-100l",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/poluavtomaticheskij-pogruzchik/vskf-100l",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/poluavtomaticheskij-pogruzchik/vskf-100l",
+  "title": "VSKF 100L",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "poluavtomaticheskij-pogruzchik",
+  "image": "/uploads/catalog/poluavtomaticheskij-pogruzchik.jpg",
+  "specs": [
+    {
+      "label": "Ширина посадчика (W1)",
+      "value": "580 мм"
+    },
+    {
+      "label": "Длина посадчика (L1)",
+      "value": "2800 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1175 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "3200 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2165 мм"
+    },
+    {
+      "label": "Управление",
+      "value": "Ручное или сенсорное"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "0,55 кВт"
+    },
+    {
+      "label": "Масса",
+      "value": "780 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKF 100L",
+    "description": "Ширина посадчика (W1): 580 мм; Длина посадчика (L1): 2800 мм",
+    "ogImage": "/uploads/catalog/poluavtomaticheskij-pogruzchik.jpg"
+  }
+}

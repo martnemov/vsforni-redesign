@@ -1,0 +1,60 @@
+{
+  "id": "162",
+  "urlSlug": "vsbs-50m",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/xleborezka/vsbs-50m",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/xleborezka/vsbs-50m",
+  "title": "VSBS 50M",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "xleborezka",
+  "image": "/uploads/catalog/xleborezka.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "500 шт./ч"
+    },
+    {
+      "label": "Толщина нарезки",
+      "value": "11 - 16 мм"
+    },
+    {
+      "label": "Количество ножей",
+      "value": "44 - 28 шт."
+    },
+    {
+      "label": "Макс. длина хлеба",
+      "value": "380 мм"
+    },
+    {
+      "label": "Высота хлеба (мин. - макс.)",
+      "value": "50 - 150 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "700 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "675 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "830 мм"
+    },
+    {
+      "label": "Электрическая мощность (220В / 380В)",
+      "value": "0,37 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "100 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSBS 50M",
+    "description": "Производительность: 500 шт./ч; Толщина нарезки: 11 - 16 мм",
+    "ogImage": "/uploads/catalog/xleborezka.jpg"
+  }
+}

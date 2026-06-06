@@ -1,0 +1,96 @@
+{
+  "id": "33",
+  "urlSlug": "vskf-150",
+  "originalUri": "katalog-oborudovaniya-vs-forni/pechi/yarusnaya-cziklotermicheskaya-pech-s-kamennyim-podom/vskf-150",
+  "astroUri": "katalog-oborudovaniya-vs-forni/pechi/yarusnaya-cziklotermicheskaya-pech-s-kamennyim-podom/vskf-150",
+  "title": "VSKF 150",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "pechi",
+  "groupSlug": "yarusnaya-cziklotermicheskaya-pech-s-kamennyim-podom",
+  "image": "/uploads/catalog/yarusnaya-cziklotermicheskaya-pech-s-kamennyim-podom.jpg",
+  "specs": [
+    {
+      "label": "Производительность* (хлеб / 8  часов)",
+      "value": "4500 шт."
+    },
+    {
+      "label": "Площадь выпечки",
+      "value": "15 м2"
+    },
+    {
+      "label": "Количество ярусов",
+      "value": "4 шт."
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "2500 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "3700 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2250 мм"
+    },
+    {
+      "label": "Внутренняя ширина  печи",
+      "value": "1830 мм"
+    },
+    {
+      "label": "Внутренняя длина печи",
+      "value": "2060 мм"
+    },
+    {
+      "label": "Внутренняя высота  печи",
+      "value": "185 мм"
+    },
+    {
+      "label": "Количество противней (40x60cм)",
+      "value": "60 шт."
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "3,6 кВт"
+    },
+    {
+      "label": "Тепловая мощность",
+      "value": "86000 ккал / ч"
+    },
+    {
+      "label": "Макс. температура",
+      "value": "300 °C"
+    },
+    {
+      "label": "Количество поддонов",
+      "value": "12 шт."
+    },
+    {
+      "label": "Размеры поддонов",
+      "value": "580x2400 мм"
+    },
+    {
+      "label": "Источник энергии",
+      "value": ""
+    },
+    {
+      "label": "Масса печи",
+      "value": "4250 кг"
+    },
+    {
+      "label": "Система управления",
+      "value": ""
+    },
+    {
+      "label": "Энергопотребление**",
+      "value": "12.2; 10.4; 11.2 СНГ (л / ч)"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSKF 150",
+    "description": "Производительность* (хлеб / 8  часов): 4500 шт.; Площадь выпечки: 15 м2",
+    "ogImage": "/uploads/catalog/yarusnaya-cziklotermicheskaya-pech-s-kamennyim-podom.jpg"
+  }
+}

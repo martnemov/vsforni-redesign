@@ -1,0 +1,64 @@
+{
+  "id": "42",
+  "urlSlug": "vsvd-2000",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/testodelitel/vsvd-2000",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/testodelitel/vsvd-2000",
+  "title": "VSVD 2000",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "testodelitel",
+  "image": "/uploads/catalog/testodelitel.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "1800 шт./ч"
+    },
+    {
+      "label": "Масса тестовых заготовок / Диаметр поршня",
+      "value": "50 - 200 / ø 70; 80-400 / ø 90; 100 - 600 / ø 110; 200 - 1000 / ø 130 г/ мм"
+    },
+    {
+      "label": "Количество поршней",
+      "value": "1 шт."
+    },
+    {
+      "label": "Емкость бункера",
+      "value": "60 кг"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "665 мм"
+    },
+    {
+      "label": "Длина (L / L1)",
+      "value": "400 / 1780 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1520 мм"
+    },
+    {
+      "label": "Высота выхода теста (H1)",
+      "value": "960 ± 80 / 95 мм"
+    },
+    {
+      "label": "Регулировка массы",
+      "value": "Аналоговое, цифровое или сенсорное"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1.5 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "405 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSVD 2000",
+    "description": "Производительность: 1800 шт./ч; Масса тестовых заготовок / Диаметр поршня: 50 - 200 / ø 70; 80-400 / ø 90; 100 - 600 / ø 110; 200 - 1000 / ø 130 г/ мм",
+    "ogImage": "/uploads/catalog/testodelitel.jpg"
+  }
+}

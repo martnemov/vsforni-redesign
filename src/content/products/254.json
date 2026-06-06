@@ -1,0 +1,40 @@
+{
+  "id": "254",
+  "urlSlug": "vsf-bz180",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/gorizontalnaya-upakovochnaya-mashina-vsf-bz/vsf-bz180",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/gorizontalnaya-upakovochnaya-mashina-vsf-bz/vsf-bz180",
+  "title": "VSF-BZ180",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "gorizontalnaya-upakovochnaya-mashina-vsf-bz",
+  "image": "/uploads/media/upakovshhik-vsf.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "30-100 шт/мин"
+    },
+    {
+      "label": "Ширина пакета",
+      "value": "70-200 мм"
+    },
+    {
+      "label": "Ширина пленки",
+      "value": "200-600 мм"
+    },
+    {
+      "label": "Высота пакета",
+      "value": "70-200 мм"
+    },
+    {
+      "label": "Особенности",
+      "value": "Функция подачи газа и спирта"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-BZ180",
+    "description": "Производительность: 30-100 шт/мин; Ширина пакета: 70-200 мм",
+    "ogImage": "/uploads/media/upakovshhik-vsf.jpg"
+  }
+}

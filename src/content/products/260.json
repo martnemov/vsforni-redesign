@@ -1,0 +1,40 @@
+{
+  "id": "260",
+  "urlSlug": "vsf-pe08",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/glazirovochnaya-mashina-vsf/vsf-pe08",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/glazirovochnaya-mashina-vsf/vsf-pe08",
+  "title": "VSF-PE08",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "glazirovochnaya-mashina-vsf",
+  "image": "/uploads/media/izobrazhenie-whatsapp-2025-03-17-v-17.40.52_e1e5b389.jpg",
+  "specs": [
+    {
+      "label": "Скорость ленты",
+      "value": "макс 2 м/мин"
+    },
+    {
+      "label": "Нагрев",
+      "value": "Электрический"
+    },
+    {
+      "label": "Мощность",
+      "value": "1,8 кВт"
+    },
+    {
+      "label": "Ширина транспортера",
+      "value": "180 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "149 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-PE08",
+    "description": "Скорость ленты: макс 2 м/мин; Нагрев: Электрический",
+    "ogImage": "/uploads/media/izobrazhenie-whatsapp-2025-03-17-v-17.40.52_e1e5b389.jpg"
+  }
+}

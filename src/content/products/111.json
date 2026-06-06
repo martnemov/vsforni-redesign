@@ -1,0 +1,52 @@
+{
+  "id": "111",
+  "urlSlug": "vsbt-120",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/avtomaticheskij-oprokidyivatel-dezhi-dlya-planetarnogo-miksera/vsbt-120",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/avtomaticheskij-oprokidyivatel-dezhi-dlya-planetarnogo-miksera/vsbt-120",
+  "title": "VSBT 120",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "avtomaticheskij-oprokidyivatel-dezhi-dlya-planetarnogo-miksera",
+  "image": "/uploads/catalog/avtomaticheskij-oprokidyivatel-dezhi-dlya-planetarnogo-miksera.jpg",
+  "specs": [
+    {
+      "label": "Максимальная грузоподъемность",
+      "value": "120 кг"
+    },
+    {
+      "label": "Высота выгрузки теста",
+      "value": "1800 мм"
+    },
+    {
+      "label": "Максимальная высота (H1)",
+      "value": "2600 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1090 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1350 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2300 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "1,5 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "275 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSBT 120",
+    "description": "Максимальная грузоподъемность: 120 кг; Высота выгрузки теста: 1800 мм",
+    "ogImage": "/uploads/catalog/avtomaticheskij-oprokidyivatel-dezhi-dlya-planetarnogo-miksera.jpg"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "264",
+  "urlSlug": "vsf-zb100",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/ekstruzionno-otsadochnaya-mashina-s-diafragmennoj-rezkoj/vsf-zb100",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/ekstruzionno-otsadochnaya-mashina-s-diafragmennoj-rezkoj/vsf-zb100",
+  "title": "VSF-ZB100",
+  "longTitle": "",
+  "description": "Экструзионно-отсадочная машина VS Forni VSF-ZB100 оснащена бункером для подачи начинки и диафрагменной резкой для создания полуфабрикатов типа беляшей, хинкалей, дамплингов, а также любых других полуфабрикатов с начинкой из мясного фарша, овощных, фруктовых или творожных начинок.",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "ekstruzionno-otsadochnaya-mashina-s-diafragmennoj-rezkoj",
+  "image": "/uploads/media/image_20250825103939.jpg",
+  "specs": [
+    {
+      "label": "Производительность",
+      "value": "800-2000 шт/час"
+    },
+    {
+      "label": "Вес продукта",
+      "value": "80-180 грамм"
+    },
+    {
+      "label": "Мощность",
+      "value": "1,5 кВт"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "220/380 В"
+    },
+    {
+      "label": "Ширина",
+      "value": "1000 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "700 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1150 мм"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-ZB100",
+    "description": "Экструзионно-отсадочная машина VS Forni VSF-ZB100 оснащена бункером для подачи начинки и диафрагменной резкой для создания полуфабрикатов типа беляшей, хинкалей, дамплингов, а также любых других полуфабрикатов с начинкой из мясного фарша, овощных, фруктовых или творожных начинок.",
+    "ogImage": "/uploads/media/image_20250825103939.jpg"
+  }
+}

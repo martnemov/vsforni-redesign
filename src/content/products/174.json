@@ -1,0 +1,64 @@
+{
+  "id": "174",
+  "urlSlug": "vsfp-5-4",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/shkaf-rasstojnyij/vsfp-5-4",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/shkaf-rasstojnyij/vsfp-5-4",
+  "title": "VSFP 5-4",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "shkaf-rasstojnyij",
+  "image": "/uploads/catalog/shkaf-rasstojnyij.jpg",
+  "specs": [
+    {
+      "label": "Количество тележек* (размеры тележек)",
+      "value": "4x(40x60), 4x(53x65), 4x(50x70) шт.(cm)"
+    },
+    {
+      "label": "Количество дверей**",
+      "value": "2 шт."
+    },
+    {
+      "label": "Толщина стенки",
+      "value": "60 мм"
+    },
+    {
+      "label": "Замок на двери",
+      "value": "✓"
+    },
+    {
+      "label": "Внутренняя ручка двери",
+      "value": "✓"
+    },
+    {
+      "label": "Пол***",
+      "value": "×"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1950 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "1720 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2000 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "- кВт"
+    },
+    {
+      "label": "Масса",
+      "value": "240 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSFP 5-4",
+    "description": "Количество тележек* (размеры тележек): 4x(40x60), 4x(53x65), 4x(50x70) шт.(cm); Количество дверей**: 2 шт.",
+    "ogImage": "/uploads/catalog/shkaf-rasstojnyij.jpg"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "126",
+  "urlSlug": "vsf-cm-mini",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/nastolnaya-testootsadochnaya-mashina/vsf-cm-mini",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/nastolnaya-testootsadochnaya-mashina/vsf-cm-mini",
+  "title": "VSF CM Mini",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "nastolnaya-testootsadochnaya-mashina",
+  "image": "/uploads/catalog/nastolnaya-testootsadochnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "102 см"
+    },
+    {
+      "label": "Длина",
+      "value": "100 см"
+    },
+    {
+      "label": "Высота",
+      "value": "84 см"
+    },
+    {
+      "label": "Контейнер для теста",
+      "value": "15 кг"
+    },
+    {
+      "label": "Вес станка",
+      "value": "190 кг"
+    },
+    {
+      "label": "Напряжение",
+      "value": "380 В"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "1 кВт"
+    },
+    {
+      "label": "Грузоподъемность",
+      "value": "50-70 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF CM Mini",
+    "description": "Ширина: 102 см; Длина: 100 см",
+    "ogImage": "/uploads/catalog/nastolnaya-testootsadochnaya-mashina.jpg"
+  }
+}

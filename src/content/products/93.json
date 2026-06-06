@@ -1,0 +1,48 @@
+{
+  "id": "93",
+  "urlSlug": "vsmd-22",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi,-mikseryi/ruchnoj-testodelitel/vsmd-22",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testopodgotovka/ruchnoj-testodelitel/vsmd-22",
+  "title": "VSMD 22",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testopodgotovka",
+  "groupSlug": "ruchnoj-testodelitel",
+  "image": "/uploads/catalog/ruchnoj-testodelitel.jpg",
+  "specs": [
+    {
+      "label": "Количество деления",
+      "value": "22 шт."
+    },
+    {
+      "label": "Диапазон",
+      "value": "50-300 г"
+    },
+    {
+      "label": "Вместимость",
+      "value": "6,5 кг"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "550 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "450 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1900 мм"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "45 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSMD 22",
+    "description": "Количество деления: 22 шт.; Диапазон: 50-300 г",
+    "ogImage": "/uploads/catalog/ruchnoj-testodelitel.jpg"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "276",
+  "urlSlug": "vsf-250-stsm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-v-obe-storonyi/vsf-250-stsm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/testomes-s-oprokidyivaniem-v-obe-storonyi/vsf-250-stsm",
+  "title": "VSF-250 STSM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "testomes-s-oprokidyivaniem-v-obe-storonyi",
+  "image": "/uploads/media/testomes-s-oprokidyivaniem-v-obe-storonyi-4.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "1600 мм"
+    },
+    {
+      "label": "Глубина",
+      "value": "1950 мм"
+    },
+    {
+      "label": "Высота",
+      "value": "1750 мм"
+    },
+    {
+      "label": "Вес",
+      "value": "1500 кг"
+    },
+    {
+      "label": "Вольтаж",
+      "value": "380 В"
+    },
+    {
+      "label": "Эл. потребление",
+      "value": "13.6 кВт"
+    },
+    {
+      "label": "Высота опрокидывания",
+      "value": "1100 мм"
+    },
+    {
+      "label": "Количество скоростей",
+      "value": "2"
+    },
+    {
+      "label": "Объем дежи",
+      "value": "250 л"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF-250 STSM",
+    "description": "Ширина: 1600 мм; Глубина: 1950 мм",
+    "ogImage": "/uploads/media/testomes-s-oprokidyivaniem-v-obe-storonyi-4.jpg"
+  }
+}

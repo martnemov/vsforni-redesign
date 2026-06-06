@@ -1,0 +1,44 @@
+{
+  "id": "142",
+  "urlSlug": "vsf-cm",
+  "originalUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/koverovalnaya-mashina/vsf-cm",
+  "astroUri": "katalog-oborudovaniya-vs-forni/konditerskoe-oborudovanie/koverovalnaya-mashina/vsf-cm",
+  "title": "VSF CM",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "konditerskoe-oborudovanie",
+  "groupSlug": "koverovalnaya-mashina",
+  "image": "/uploads/catalog/koverovalnaya-mashina.jpg",
+  "specs": [
+    {
+      "label": "Ширина",
+      "value": "57 см"
+    },
+    {
+      "label": "Длина",
+      "value": "217 см"
+    },
+    {
+      "label": "Высота",
+      "value": "47 см"
+    },
+    {
+      "label": "Вес машины",
+      "value": "120 кг"
+    },
+    {
+      "label": "Потребление электроэнергии",
+      "value": "0.5 кВт"
+    },
+    {
+      "label": "Напряжение",
+      "value": "220 В"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSF CM",
+    "description": "Ширина: 57 см; Длина: 217 см",
+    "ogImage": "/uploads/catalog/koverovalnaya-mashina.jpg"
+  }
+}

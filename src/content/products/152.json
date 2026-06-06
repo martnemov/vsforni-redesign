@@ -1,0 +1,44 @@
+{
+  "id": "152",
+  "urlSlug": "vsdf-50t",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/telezhka-dlya-rotaczionnoj-pechi/vsdf-50t",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/telezhka-dlya-rotaczionnoj-pechi/vsdf-50t",
+  "title": "VSDF 50T",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "telezhka-dlya-rotaczionnoj-pechi",
+  "image": "/uploads/catalog/telezhka-dlya-rotaczionnoj-pechi.jpg",
+  "specs": [
+    {
+      "label": "Количество противней",
+      "value": "8 - 15 шт."
+    },
+    {
+      "label": "Расстояние между противнями",
+      "value": "150 - 80 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "580 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "580 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1420 мм"
+    },
+    {
+      "label": "Масса тележки",
+      "value": "30 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSDF 50T",
+    "description": "Количество противней: 8 - 15 шт.; Расстояние между противнями: 150 - 80 мм",
+    "ogImage": "/uploads/catalog/telezhka-dlya-rotaczionnoj-pechi.jpg"
+  }
+}

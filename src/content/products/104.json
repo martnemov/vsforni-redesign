@@ -1,0 +1,52 @@
+{
+  "id": "104",
+  "urlSlug": "vsbt-430",
+  "originalUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/avtomaticheskaya-dezheoprokidyivatel/vsbt-430",
+  "astroUri": "katalog-oborudovaniya-vs-forni/testomesyi-s-oprokidyivaniem/avtomaticheskaya-dezheoprokidyivatel/vsbt-430",
+  "title": "VSBT 430",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "testomesyi-s-oprokidyivaniem",
+  "groupSlug": "avtomaticheskaya-dezheoprokidyivatel",
+  "image": "/uploads/catalog/avtomaticheskaya-dezheoprokidyivatel.jpg",
+  "specs": [
+    {
+      "label": "Максимальная грузоподъемность",
+      "value": "350 кг"
+    },
+    {
+      "label": "Высота выгрузки теста",
+      "value": "1600-1900 мм"
+    },
+    {
+      "label": "Максимальная высота (H1)",
+      "value": "2945 мм"
+    },
+    {
+      "label": "Ширина (W)",
+      "value": "1600 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "2200 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "2350 мм"
+    },
+    {
+      "label": "Электрическая мощность",
+      "value": "2,5 кВт"
+    },
+    {
+      "label": "Масса оборудования",
+      "value": "750 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSBT 430",
+    "description": "Максимальная грузоподъемность: 350 кг; Высота выгрузки теста: 1600-1900 мм",
+    "ogImage": "/uploads/catalog/avtomaticheskaya-dezheoprokidyivatel.jpg"
+  }
+}

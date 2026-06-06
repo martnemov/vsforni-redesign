@@ -1,0 +1,64 @@
+{
+  "id": "184",
+  "urlSlug": "vss-c300",
+  "originalUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/oxladitel-vodyi/vss-c300",
+  "astroUri": "katalog-oborudovaniya-vs-forni/vspomogatelnoe-oborudovanie/oxladitel-vodyi/vss-c300",
+  "title": "VSS-C300",
+  "longTitle": "",
+  "description": "",
+  "categorySlug": "vspomogatelnoe-oborudovanie",
+  "groupSlug": "oxladitel-vodyi",
+  "image": "/uploads/catalog/oxladitel-vodyi.jpg",
+  "specs": [
+    {
+      "label": "Емкость цистерны",
+      "value": "300 л"
+    },
+    {
+      "label": "Производительность",
+      "value": "80 л / ч"
+    },
+    {
+      "label": "Напряжение питания",
+      "value": "220 / 50 В / Гц"
+    },
+    {
+      "label": "Минимальная температура охлаждения",
+      "value": "1,5 °C"
+    },
+    {
+      "label": "Ширина  (W)",
+      "value": "800 мм"
+    },
+    {
+      "label": "Длина (L)",
+      "value": "800 мм"
+    },
+    {
+      "label": "Высота (H)",
+      "value": "1770 мм"
+    },
+    {
+      "label": "Электрическая мощность компрессора (герметический)",
+      "value": "0,95 кВт"
+    },
+    {
+      "label": "Подключение воды (вход - выход)",
+      "value": "½ - ¾ дюйм"
+    },
+    {
+      "label": "Подключение воды (разряд - перелив)",
+      "value": "¾ - ½ дюйм"
+    },
+    {
+      "label": "Масса",
+      "value": "148 кг"
+    }
+  ],
+  "content": "",
+  "seo": {
+    "title": "VSS-C300",
+    "description": "Емкость цистерны: 300 л; Производительность: 80 л / ч",
+    "ogImage": "/uploads/catalog/oxladitel-vodyi.jpg"
+  }
+}

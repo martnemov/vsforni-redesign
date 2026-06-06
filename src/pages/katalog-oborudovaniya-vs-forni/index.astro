@@ -1,0 +1,106 @@
+---
+export const prerender = true;
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/ui/Breadcrumbs.astro';
+import { useTranslations, getLang, localizeUrl } from '../../i18n';
+import { catalogUrl, mediaUrl } from '../../lib/utils';
+const lang = getLang(Astro.currentLocale);
+const t = useTranslations(lang);
+
+const categories = await getCollection('categories');
+const groups = await getCollection('groups');
+
+// Pick first group image per category as representative image
+const catImages = Object.fromEntries(
+  categories.map((cat: CollectionEntry<'categories'>) => {
+    const grp = groups.find((g: CollectionEntry<'groups'>) => g.data.categorySlug === cat.data.urlSlug);
+    return [cat.data.urlSlug, grp?.data.image ?? ''];
+  })
+);
+
+const breadcrumbs = [
+  { label: t.breadcrumbHome, href: localizeUrl('/', lang) },
+  { label: t.catalog },
+];
+
+const totalGroups = groups.length;
+---
+<BaseLayout
+  title={t.catalogTitle}
+  description={`${t.catalogTitle}. ${t.siteDescription}`}
+  ogImage={mediaUrl(Object.values(catImages)[0] || '')  || undefined}
+>
+  <main>
+    <section class="phero">
+      <div class="container">
+        <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
+        <span class="kicker">{t.catalog}</span>
+        <h1>{t.catalogTitle}</h1>
+        <p class="phero__lead">{t.catalogHubLead}</p>
+        <div class="phero__meta">
+          <span><b>{categories.length}</b> {t.metaCategories}</span>
+          <span><b>{totalGroups}</b> {t.metaGroups}</span>
+          <span><b>167</b> {t.metaModels}</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="catpage">
+      <div class="container">
+        <div class="catalog-tools">
+          <div class="search-stub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            {t.searchPlaceholderShort}
+            <span class="search-stub__soon">{t.soon}</span>
+          </div>
+        </div>
+        <div class="cats-grid">
+          {categories.map((cat: CollectionEntry<'categories'>) => (
+            <a href={localizeUrl(catalogUrl(cat.data.urlSlug), lang)} class="cat-card">
+              <div class="cat-card__img">
+                {catImages[cat.data.urlSlug] && (
+                  <img src={mediaUrl(catImages[cat.data.urlSlug])} alt={cat.data.title} loading="lazy" decoding="async" width="400" height="280" />
+                )}
+              </div>
+              <div class="cat-card__body">
+                <h2 class="cat-card__title">{cat.data.title}</h2>
+                <div class="cat-card__foot">
+                  <span class="count">{cat.data.groupCount} {t.metaGroups}</span>
+                  <span class="cat-card__more">{t.open} →</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
+  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
+  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
+  .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
+  .phero__lead { color: var(--color-text-muted); font-size: var(--font-lg); max-width: 60ch; margin-top: var(--sp-4); }
+  .phero__meta { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); margin-top: var(--sp-4); display: flex; gap: var(--sp-5); flex-wrap: wrap; }
+  .phero__meta b { color: var(--accent-text); }
+
+  .catalog-tools { margin-bottom: var(--sp-6); }
+  .search-stub { display: flex; align-items: center; gap: .7em; background: var(--surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: .8em 1.1em; color: var(--graphite-400); font-size: var(--font-sm); }
+  .search-stub svg { width: 1.1em; height: 1.1em; color: var(--accent); }
+  .search-stub__soon { margin-left: auto; font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .1em; background: var(--copper-50); color: var(--accent-text); padding: .3em .6em; border-radius: var(--radius-sm); white-space: nowrap; }
+
+  .cats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--sp-5); }
+  .cat-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition); }
+  .cat-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); border-color: var(--copper-200); }
+  .cat-card__img { aspect-ratio: 16/11; overflow: hidden; background: linear-gradient(135deg, var(--paper-2), var(--copper-50)); }
+  .cat-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+  .cat-card:hover .cat-card__img img { transform: scale(1.04); }
+  .cat-card__body { padding: var(--sp-4) var(--sp-5); display: flex; flex-direction: column; gap: var(--sp-3); flex: 1; }
+  .cat-card__title { font-size: var(--font-lg); }
+  .cat-card__foot { margin-top: auto; padding-top: var(--sp-3); border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; }
+  .count { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); }
+  .cat-card__more { font-size: var(--font-sm); font-weight: 600; color: var(--accent-text); }
+</style>
