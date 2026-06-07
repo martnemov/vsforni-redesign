@@ -13,7 +13,6 @@ const related = products.filter((p) => p.id !== currentId).slice(0, 4);
 ---
 {related.length > 0 && (
   <section class="related">
-    <span class="related__kicker">{t.relatedProducts}</span>
     <h2 class="related__heading">{t.relatedProducts}</h2>
     <div class="related__grid">
       {related.map((p) => (
@@ -25,7 +24,6 @@ const related = products.filter((p) => p.id !== currentId).slice(0, 4);
 
 <style>
   .related { margin-top: var(--sp-12); padding-top: var(--sp-8); border-top: 1px solid var(--color-border); }
-  .related__kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); }
   .related__heading { font-size: var(--font-xl); margin: var(--sp-2) 0 var(--sp-6); }
   .related__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--sp-5); }
 </style>

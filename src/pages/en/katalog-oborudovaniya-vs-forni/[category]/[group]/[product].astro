@@ -8,22 +8,29 @@ import RelatedProducts from '../../../../../components/product/RelatedProducts.a
 import Button from '../../../../../components/ui/Button.astro';
 import Modal from '../../../../../components/forms/Modal.astro';
 import { useTranslations, getLang, localizeUrl } from '../../../../../i18n';
+import BackButton from '../../../../../components/ui/BackButton.astro';
 import { catalogUrl, groupUrl, mediaUrl } from '../../../../../lib/utils';
 
 export async function getStaticPaths() {
   const products = await getCollection('products');
+  const groups = await getCollection('groups');
+  const categories = await getCollection('categories');
   return products.map((prod: CollectionEntry<'products'>) => ({
     params: {
       category: prod.data.categorySlug,
       group: prod.data.groupSlug,
       product: prod.data.urlSlug,
     },
-    props: { prod },
+    props: {
+      prod,
+      grp: groups.find((g: CollectionEntry<'groups'>) => g.data.urlSlug === prod.data.groupSlug && g.data.categorySlug === prod.data.categorySlug),
+      cat: categories.find((c: CollectionEntry<'categories'>) => c.data.urlSlug === prod.data.categorySlug),
+    },
   }));
 }
 
-interface Props { prod: CollectionEntry<'products'>; }
-const { prod } = Astro.props;
+interface Props { prod: CollectionEntry<'products'>; grp?: CollectionEntry<'groups'>; cat?: CollectionEntry<'categories'>; }
+const { prod, grp, cat } = Astro.props;
 const { category, group } = Astro.params;
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
@@ -43,8 +50,8 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
 const breadcrumbs = [
   { label: t.breadcrumbHome, href: localizeUrl('/', lang) },
   { label: t.catalog, href: localizeUrl('/katalog-oborudovaniya-vs-forni/', lang) },
-  { label: category, href: localizeUrl(catalogUrl(category), lang) },
-  { label: group, href: localizeUrl(groupUrl(category, group), lang) },
+  { label: cat?.data.title ?? category, href: localizeUrl(catalogUrl(category), lang) },
+  { label: grp?.data.title ?? group, href: localizeUrl(groupUrl(category, group), lang) },
   { label: d.title },
 ];
 
@@ -73,6 +80,7 @@ const jsonLdProduct = {
     <div class="phero-strip">
       <div class="container">
         <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
+      <BackButton href={localizeUrl(groupUrl(category, group), lang)} label={grp?.data?.title ?? group} />
       </div>
     </div>
 

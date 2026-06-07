@@ -4,6 +4,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../components/ui/Breadcrumbs.astro';
 import { useTranslations, getLang, localizeUrl, plural as plr } from '../../../../i18n';
+import BackButton from '../../../../components/ui/BackButton.astro';
 import { groupUrl, mediaUrl } from '../../../../lib/utils';
 
 export async function getStaticPaths() {
@@ -42,7 +43,7 @@ const catOgImage = groups.find((g: CollectionEntry<'groups'>) => g.data.category
     <section class="phero">
       <div class="container">
         <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
-        <span class="kicker">{t.catalog}</span>
+        <BackButton href={localizeUrl('/katalog-oborudovaniya-vs-forni/', lang)} label={t.catalog} />
         <h1>{cat.data.title}</h1>
         <div class="phero__meta"><span><b>{cat.data.groupCount}</b> {t.metaGroups}</span></div>
       </div>
@@ -75,8 +76,6 @@ const catOgImage = groups.find((g: CollectionEntry<'groups'>) => g.data.category
 
 <style>
   .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
   .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
   .phero__meta { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); margin-top: var(--sp-4); }
   .phero__meta b { color: var(--accent-text); }

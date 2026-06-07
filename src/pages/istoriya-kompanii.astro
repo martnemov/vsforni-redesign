@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/ui/Breadcrumbs.astro';
 import { useTranslations, getLang, localizeUrl } from '../i18n';
 import { mediaUrl } from '../lib/utils';
+import BackButton from '../components/ui/BackButton.astro';
 
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
@@ -26,7 +27,7 @@ const stats = [
     <section class="phero">
       <div class="container">
         <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
-        <span class="kicker">{t.aboutKicker}</span>
+        <BackButton href={localizeUrl('/', lang)} label={t.home} />
         <h1>{t.historyTitle}</h1>
         <p class="phero__lead">{t.historyLead}</p>
       </div>
@@ -60,8 +61,6 @@ const stats = [
 
 <style>
   .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
   .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
   .phero__lead { color: var(--color-text-muted); font-size: var(--font-lg); max-width: 60ch; margin-top: var(--sp-4); }
 

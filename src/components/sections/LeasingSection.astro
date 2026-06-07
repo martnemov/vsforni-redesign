@@ -8,7 +8,6 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
 <section class="leasing">
   <div class="container leasing__inner">
     <div class="leasing__text">
-      <span class="kicker">{t.leasingTitle}</span>
       <h2>{t.leasingHeading}</h2>
       <p>{t.leasingText}</p>
     </div>
@@ -26,8 +25,6 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
   .leasing { background: var(--ink-900); color: var(--paper); position: relative; overflow: hidden; }
   .leasing::after { content: ""; position: absolute; inset: 0; background: radial-gradient(100% 90% at 100% 0, rgba(224,123,26,.26), transparent 60%); pointer-events: none; }
   .leasing__inner { position: relative; display: grid; grid-template-columns: 1.3fr .7fr; gap: var(--sp-6); align-items: center; }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--copper-bright); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--copper-bright); }
   .leasing__text h2 { color: #fff; font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-4); max-width: 18ch; }
   .leasing__text p { color: var(--graphite-300); max-width: 44ch; }
   .leasing__act { display: flex; flex-direction: column; gap: var(--sp-4); align-items: flex-start; }

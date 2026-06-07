@@ -5,15 +5,18 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../components/ui/Breadcrumbs.astro';
 import ProductCard from '../../../../components/product/ProductCard.astro';
 import { useTranslations, getLang, localizeUrl, plural as plr } from '../../../../i18n';
+import BackButton from '../../../../components/ui/BackButton.astro';
 import { catalogUrl, productUrl, mediaUrl } from '../../../../lib/utils';
 
 export async function getStaticPaths() {
   const groups = await getCollection('groups');
+  const categories = await getCollection('categories');
   const products = await getCollection('products');
   return groups.map((grp: CollectionEntry<'groups'>) => ({
     params: { category: grp.data.categorySlug, group: grp.data.urlSlug },
     props: {
       grp,
+      cat: categories.find((c: CollectionEntry<'categories'>) => c.data.urlSlug === grp.data.categorySlug),
       products: products.filter((p: CollectionEntry<'products'>) => p.data.groupSlug === grp.data.urlSlug && p.data.categorySlug === grp.data.categorySlug),
     },
   }));
@@ -21,9 +24,10 @@ export async function getStaticPaths() {
 
 interface Props {
   grp: CollectionEntry<'groups'>;
+  cat?: CollectionEntry<'categories'>;
   products: CollectionEntry<'products'>[];
 }
-const { grp, products } = Astro.props;
+const { grp, cat, products } = Astro.props;
 const { category } = Astro.params;
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
@@ -31,7 +35,7 @@ const t = useTranslations(lang);
 const breadcrumbs = [
   { label: t.breadcrumbHome, href: localizeUrl('/', lang) },
   { label: t.catalog, href: localizeUrl('/katalog-oborudovaniya-vs-forni/', lang) },
-  { label: category, href: localizeUrl(catalogUrl(category), lang) },
+  { label: cat?.data.title ?? category, href: localizeUrl(catalogUrl(category), lang) },
   { label: grp.data.title },
 ];
 
@@ -45,7 +49,7 @@ const plural = plr(lang, count, ['модель','модели','моделей']
     <section class="phero">
       <div class="container">
         <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
-        <span class="kicker">{t.catalog}</span>
+        <BackButton href={localizeUrl(catalogUrl(category), lang)} label={cat?.data.title ?? category} />
         <h1>{grp.data.title}</h1>
         {grp.data.description && <p class="phero__lead">{grp.data.description}</p>}
         <div class="phero__meta"><span><b>{count}</b> {plural} {t.inGroup}</span></div>
@@ -79,8 +83,7 @@ const plural = plr(lang, count, ['модель','модели','моделей']
 
 <style>
   .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
+
   .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
   .phero__lead { color: var(--color-text-muted); font-size: var(--font-md, var(--font-lg)); max-width: 60ch; margin-top: var(--sp-4); }
   .phero__meta { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); margin-top: var(--sp-4); }

@@ -40,5 +40,6 @@ a { text-decoration: none; transition: color var(--transition); }
 }
 
 section { padding-block: var(--section-py); }
+.catpage { padding-block: var(--sp-6); }
 
 img { height: auto; }

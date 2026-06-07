@@ -8,7 +8,6 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
 <section class="callback">
   <div class="container callback__inner">
     <div class="callback__text">
-      <span class="kicker">{t.contacts}</span>
       <h2>{t.callbackTitle}</h2>
       <p>{t.callbackText}</p>
       <Button variant="primary" size="lg" data-modal="modal-callback">{t.requestCall}</Button>
@@ -27,8 +26,6 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
 <style>
   .callback { background: var(--surface); border-top: 1px solid var(--color-border); }
   .callback__inner { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(2rem, 4vw, 4rem); align-items: center; }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
   .callback__text h2 { font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-4); }
   .callback__text p { color: var(--color-text-muted); margin-bottom: var(--sp-6); max-width: 42ch; }
   .callback__contacts { display: flex; flex-direction: column; gap: var(--sp-3); padding: var(--sp-6); background: var(--paper-2); border: 1px solid var(--color-border); border-left: 3px solid var(--accent); border-radius: var(--radius-lg); }

@@ -16,12 +16,11 @@ const t = useTranslations(lang);
     <div class="hero__overlay"></div>
   </div>
   <div class="container hero__content">
-    <span class="hero__kicker">{t.heroKicker}</span>
     <h1 class="hero__title">{t.heroTitle}</h1>
     <p class="hero__subtitle">{t.heroSubtitle}</p>
     <div class="hero__ctas">
       <Button href={localizeUrl("/katalog-oborudovaniya-vs-forni/", lang)} variant="primary" size="lg">{t.heroCta}</Button>
-      <Button variant="outline" size="lg" data-modal="modal-callback" class="hero__call-btn">{t.heroCtaSecondary}</Button>
+      <Button variant="outline-invert" size="lg" data-modal="modal-callback">{t.heroCtaSecondary}</Button>
     </div>
   </div>
 </section>
@@ -41,13 +40,9 @@ const t = useTranslations(lang);
   .hero__video { width: 100%; height: 100%; object-fit: cover; }
   .hero__overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(27,23,20,.82) 0%, rgba(27,23,20,.55) 55%, rgba(27,23,20,.35) 100%); }
   .hero__content { position: relative; z-index: 1; padding-block: var(--sp-12); }
-  .hero__kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--copper-bright); display: inline-flex; align-items: center; gap: .6em; margin-bottom: var(--sp-4); }
-  .hero__kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--copper-bright); }
   .hero__title { font-size: var(--font-4xl); max-width: 18ch; margin-bottom: var(--sp-4); color: #fff; }
   .hero__subtitle { font-size: var(--font-lg); max-width: 46ch; color: rgba(255,255,255,.85); margin-bottom: var(--sp-6); }
   .hero__ctas { display: flex; gap: var(--sp-4); flex-wrap: wrap; }
-  .hero__call-btn { color: #fff; border-color: #fff; }
-  .hero__call-btn:hover { background: #fff; color: var(--ink-900); }
 
   .trust-strip { background: var(--surface); border-bottom: 1px solid var(--color-border); }
   .trust-strip__inner { display: flex; flex-wrap: wrap; gap: clamp(1rem, 4vw, 3rem); justify-content: space-between; padding-block: var(--sp-4); }

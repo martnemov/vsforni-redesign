@@ -12,7 +12,6 @@ const services = [
 ---
 <section class="services">
   <div class="container">
-    <span class="kicker">{t.servicesKicker}</span>
     <h2 class="services__title">{t.servicesFull}</h2>
     <div class="services__grid">
       {services.map((s) => (
@@ -32,8 +31,6 @@ const services = [
 
 <style>
   .services { background: var(--color-surface); }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
   .services__title { font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-6); }
   .services__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-5); }
   .service-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition); }

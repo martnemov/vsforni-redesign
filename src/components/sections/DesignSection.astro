@@ -10,7 +10,6 @@ const t = useTranslations(getLang(Astro.currentLocale));
       <img src={mediaUrl('/uploads/img/scheme.png')} alt={t.designImageAlt} loading="lazy" decoding="async" width="600" height="400" />
     </div>
     <div class="design__text">
-      <span class="kicker">{t.design}</span>
       <h2>{t.designTitle}</h2>
       <p>{t.designText}</p>
       <Button variant="primary" size="lg" data-modal="modal-callback">{t.designCta}</Button>
@@ -21,8 +20,6 @@ const t = useTranslations(getLang(Astro.currentLocale));
 <style>
   .design { background: var(--paper-2); border-block: 1px solid var(--color-border); }
   .design__inner { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 4vw, 4rem); align-items: center; }
-  .kicker { font-family: var(--font-mono); font-size: var(--font-xs); text-transform: uppercase; letter-spacing: .22em; color: var(--accent-text); display: inline-flex; align-items: center; gap: .6em; }
-  .kicker::before { content: ""; width: 1.6em; height: 1px; background: var(--accent-text); }
   .design__text h2 { font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-4); }
   .design__text p { color: var(--color-text-muted); margin-bottom: var(--sp-6); max-width: 46ch; }
   .design__image { border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); box-shadow: var(--shadow-card); background: var(--surface); }
