@@ -1,6 +1,6 @@
 ---
 import Button from '../ui/Button.astro';
-import { useTranslations, getLang } from '../../i18n';
+import { useTranslations, getLang } from '@/i18n';
 
 const t = useTranslations(getLang(Astro.currentLocale));
 const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;

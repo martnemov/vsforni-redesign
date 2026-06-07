@@ -1,7 +1,7 @@
 ---
 import Button from '../ui/Button.astro';
-import { useTranslations, getLang, localizeUrl } from '../../i18n';
-import { mediaUrl } from '../../lib/utils';
+import { useTranslations, getLang, localizeUrl } from '@/i18n';
+import { mediaUrl } from '@/lib/utils';
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
 ---

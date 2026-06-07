@@ -1,8 +1,8 @@
 ---
 export const prerender = true;
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Button from '../components/ui/Button.astro';
-import { useTranslations, getLang, localizeUrl } from '../i18n';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/ui/Button.astro';
+import { useTranslations, getLang, localizeUrl } from '@/i18n';
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
 ---

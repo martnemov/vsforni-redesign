@@ -1,5 +1,5 @@
 ---
-import { useTranslations, getLang } from '../../i18n';
+import { useTranslations, getLang } from '@/i18n';
 
 type FormType = 'callback' | 'price-request' | 'reviews-request' | 'design-request';
 
@@ -96,7 +96,7 @@ const captchaKey = import.meta.env.SMARTCAPTCHA_CLIENT_KEY ?? '';
 </dialog>
 
 {captchaKey && (
-  <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer async></script>
+  <script is:inline src="https://smartcaptcha.yandexcloud.net/captcha.js" defer async></script>
 )}
 
 <script>

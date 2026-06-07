@@ -1,9 +1,9 @@
 import type { APIRoute } from 'astro';
-import { priceRequestSchema } from '../../lib/validators';
-import { sendEmail, buildHtml } from '../../lib/email';
-import { verifyCaptcha } from '../../lib/captcha';
-import { logFormSubmission } from '../../lib/logger';
-import { sendTelegram, fmt } from '../../lib/telegram';
+import { priceRequestSchema } from '@/lib/validators';
+import { sendEmail, buildHtml } from '@/lib/email';
+import { verifyCaptcha } from '@/lib/captcha';
+import { logFormSubmission } from '@/lib/logger';
+import { sendTelegram, fmt } from '@/lib/telegram';
 
 export const prerender = false;
 

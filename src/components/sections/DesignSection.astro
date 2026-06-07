@@ -1,7 +1,7 @@
 ---
 import Button from '../ui/Button.astro';
-import { useTranslations, getLang } from '../../i18n';
-import { mediaUrl } from '../../lib/utils';
+import { useTranslations, getLang } from '@/i18n';
+import { mediaUrl } from '@/lib/utils';
 const t = useTranslations(getLang(Astro.currentLocale));
 ---
 <section class="design">

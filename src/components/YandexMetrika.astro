@@ -4,7 +4,7 @@ const counterId = import.meta.env.YANDEX_METRIKA_ID;
 if (!counterId) { /* noop */ }
 ---
 {counterId && (
-  <script define:vars={{ counterId }}>
+  <script is:inline define:vars={{ counterId }}>
     // Load Yandex Metrika after page is interactive, not during initial parse
     function loadMetrika() {
       (function(m,e,t,r,i,k,a){

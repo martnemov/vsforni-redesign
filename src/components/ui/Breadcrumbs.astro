@@ -1,5 +1,5 @@
 ---
-import type { BreadcrumbItem } from '../../lib/utils';
+import type { BreadcrumbItem } from '@/lib/utils';
 
 interface Props {
   items: BreadcrumbItem[];
@@ -34,10 +34,10 @@ const jsonLd = {
     ))}
   </ol>
 </nav>
-<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
 <style>
-  .breadcrumbs { font-family: var(--font-mono); font-size: var(--font-xs); letter-spacing: .03em; color: var(--color-text-muted); padding-block: var(--sp-4); }
+  .breadcrumbs { font-family: var(--font-mono); font-size: var(--font-xs); letter-spacing: .03em; color: var(--color-text-muted); padding-block: var(--breadcrumbs-py, var(--sp-4)); }
   ol { display: flex; flex-wrap: wrap; gap: .5em; list-style: none; padding: 0; margin: 0; align-items: center; justify-content: flex-end; }
   li { display: flex; align-items: center; gap: .5em; }
   a { color: var(--color-text-muted); text-decoration: none; }

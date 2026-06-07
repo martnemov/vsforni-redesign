@@ -1,7 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { useTranslations, getLang, localizeUrl, plural as plr } from '../../i18n';
-import { catalogUrl, mediaUrl } from '../../lib/utils';
+import { useTranslations, getLang, localizeUrl, plural as plr } from '@/i18n';
+import { catalogUrl, mediaUrl } from '@/lib/utils';
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
 

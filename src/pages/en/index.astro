@@ -1,15 +1,15 @@
 ---
 export const prerender = true;
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import HeroSection from '../../components/sections/HeroSection.astro';
-import CatalogSection from '../../components/sections/CatalogSection.astro';
-import GeographySection from '../../components/sections/GeographySection.astro';
-import ServicesSection from '../../components/sections/ServicesSection.astro';
-import DesignSection from '../../components/sections/DesignSection.astro';
-import LeasingSection from '../../components/sections/LeasingSection.astro';
-import CallbackSection from '../../components/sections/CallbackSection.astro';
-import Modal from '../../components/forms/Modal.astro';
-import { useTranslations, getLang } from '../../i18n';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import HeroSection from '@/components/sections/HeroSection.astro';
+import CatalogSection from '@/components/sections/CatalogSection.astro';
+import GeographySection from '@/components/sections/GeographySection.astro';
+import ServicesSection from '@/components/sections/ServicesSection.astro';
+import DesignSection from '@/components/sections/DesignSection.astro';
+import LeasingSection from '@/components/sections/LeasingSection.astro';
+import CallbackSection from '@/components/sections/CallbackSection.astro';
+import Modal from '@/components/forms/Modal.astro';
+import { useTranslations, getLang } from '@/i18n';
 const t = useTranslations(getLang(Astro.currentLocale));
 
 const jsonLdOrg = {

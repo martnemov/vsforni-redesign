@@ -1,12 +1,12 @@
 ---
 export const prerender = true;
 import { getCollection, type CollectionEntry } from 'astro:content';
-import BaseLayout from '../../../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../../../components/ui/Breadcrumbs.astro';
-import ProductCard from '../../../../../components/product/ProductCard.astro';
-import { useTranslations, getLang, localizeUrl, plural as plr } from '../../../../../i18n';
-import BackButton from '../../../../../components/ui/BackButton.astro';
-import { catalogUrl, productUrl, mediaUrl } from '../../../../../lib/utils';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import ProductCard from '@/components/product/ProductCard.astro';
+import { useTranslations, getLang, localizeUrl, plural as plr } from '@/i18n';
+import BackButton from '@/components/ui/BackButton.astro';
+import { catalogUrl, productUrl, mediaUrl } from '@/lib/utils';
 
 export async function getStaticPaths() {
   const groups = await getCollection('groups');
@@ -48,8 +48,10 @@ const plural = plr(lang, count, ['модель','модели','моделей']
   <main>
     <section class="phero">
       <div class="container">
-        <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
-        <BackButton href={localizeUrl(catalogUrl(category), lang)} label={cat?.data.title ?? category} />
+        <div class="page-nav">
+          <BackButton href={localizeUrl(catalogUrl(category), lang)} label={cat?.data.title ?? category} />
+          <Breadcrumbs items={breadcrumbs} site={Astro.site!} />
+        </div>
         <h1>{grp.data.title}</h1>
         {grp.data.description && <p class="phero__lead">{grp.data.description}</p>}
         <div class="phero__meta"><span><b>{count}</b> {plural} {t.inGroup}</span></div>
@@ -84,7 +86,7 @@ const plural = plr(lang, count, ['модель','модели','моделей']
 <style>
   .phero { background: linear-gradient(var(--paper), var(--paper-2)); border-bottom: 1px solid var(--color-border); padding-block: var(--sp-2) var(--sp-8); }
   .phero h1 { font-size: var(--font-3xl); margin-top: var(--sp-3); }
-  .phero__lead { color: var(--color-text-muted); font-size: var(--font-md, var(--font-lg)); max-width: 60ch; margin-top: var(--sp-4); }
+  .phero__lead { color: var(--color-text-muted); font-size: var(--font-lg); max-width: 60ch; margin-top: var(--sp-4); }
   .phero__meta { font-family: var(--font-mono); font-size: var(--font-xs); color: var(--color-text-muted); margin-top: var(--sp-4); }
   .phero__meta b { color: var(--accent-text); }
 
