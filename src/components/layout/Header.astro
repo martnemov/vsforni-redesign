@@ -41,18 +41,46 @@ const enHref = localizeUrl(barePath, 'en');
     <div class="header__cta">
       <Button variant="primary" size="sm" data-modal="modal-callback">{t.requestPrice}</Button>
       <button class="header__burger" type="button" aria-label={t.menu} aria-expanded="false" data-burger>
-        <span></span><span></span><span></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
       </button>
     </div>
   </div>
 </header>
 
 <script>
-  const burger = document.querySelector('[data-burger]');
-  const nav = document.querySelector('[data-nav]');
+  const burger = document.querySelector<HTMLButtonElement>('[data-burger]');
+  const nav = document.querySelector<HTMLElement>('[data-nav]');
+
+  function openMenu() {
+    nav?.classList.add('is-open');
+    burger?.setAttribute('aria-expanded', 'true');
+    burger?.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    nav?.classList.remove('is-open');
+    burger?.setAttribute('aria-expanded', 'false');
+    burger?.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+
   burger?.addEventListener('click', () => {
-    const open = nav?.classList.toggle('is-open');
-    burger.setAttribute('aria-expanded', String(!!open));
+    const isOpen = nav?.classList.contains('is-open');
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && nav?.classList.contains('is-open')) closeMenu();
+  });
+
+  document.addEventListener('click', (e) => {
+    const header = document.querySelector('.header');
+    if (nav?.classList.contains('is-open') && !header?.contains(e.target as Node)) {
+      closeMenu();
+    }
   });
 </script>
 
@@ -80,10 +108,17 @@ const enHref = localizeUrl(barePath, 'en');
   .header__nav a:hover { color: var(--accent-text); }
   .header__nav a:hover::after { right: 0; }
   .header__cta { display: flex; align-items: center; gap: var(--sp-4); }
-  .header__burger { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 4px; }
-  .header__burger span { width: 24px; height: 2px; background: var(--ink-900); display: block; transition: var(--transition); }
 
-  @media (max-width: 1080px) {
+  /* burger button */
+  .header__burger { display: none; flex-direction: column; justify-content: center; gap: 5px; background: none; border: 0; cursor: pointer; padding: 10px; width: 44px; height: 44px; }
+  .burger-bar { width: 22px; height: 2px; background: var(--ink-900); display: block; transition: transform var(--transition), opacity var(--transition); transform-origin: center; }
+
+  /* burger → X animation */
+  .header__burger.is-open .burger-bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .header__burger.is-open .burger-bar:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .header__burger.is-open .burger-bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  @media (max-width: 1023px) {
     .header__nav {
       position: absolute; top: 100%; left: 0; right: 0;
       flex-direction: column; gap: 0; margin: 0;
@@ -91,11 +126,12 @@ const enHref = localizeUrl(barePath, 'en');
       padding: var(--sp-2) var(--container-pad);
       max-height: 0; overflow: hidden; transition: max-height var(--transition);
     }
-    .header__nav.is-open { max-height: 60vh; }
-    .header__nav a { padding-block: var(--sp-3); border-bottom: 1px solid var(--color-border); }
+    .header__nav.is-open { max-height: 60vh; overflow-y: auto; }
+    .header__nav a { padding-block: var(--sp-3); border-bottom: 1px solid var(--color-border); min-height: 44px; display: flex; align-items: center; }
     .header__burger { display: flex; }
   }
-  @media (max-width: 560px) {
+
+  @media (max-width: 479px) {
     .topbar__item--email { display: none; }
   }
 </style>

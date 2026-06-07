@@ -43,12 +43,13 @@ const notes = specs.filter((s) => !s.value);
   .specs__pdf { display: inline-flex; align-items: center; gap: .6em; font-family: var(--font-sans); font-weight: 600; font-size: var(--font-sm); color: var(--accent-text); background: transparent; border: 1px solid var(--copper-200); border-radius: var(--radius-md); padding: .7em 1.2em; margin-bottom: var(--sp-5); cursor: not-allowed; }
   .specs__pdf svg { width: 1.05em; height: 1.05em; }
   .specs__soon { font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .1em; background: var(--copper-50); color: var(--accent-text); padding: .3em .6em; border-radius: var(--radius-sm); }
-  .specs__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 clamp(1.5rem, 4vw, 3rem); }
+  /* mobile-first: single column */
+  .specs__grid { display: grid; grid-template-columns: 1fr; gap: 0; }
   .specs__row { display: flex; justify-content: space-between; gap: var(--sp-4); padding: var(--sp-3) 0; border-bottom: 1px solid var(--color-border); }
   .specs__row dt { color: var(--color-text-muted); font-size: var(--font-sm); }
   .specs__row dd { color: var(--ink-900); font-weight: 500; font-size: var(--font-sm); text-align: right; font-family: var(--font-mono); margin: 0; }
   .specs__notes { margin-top: var(--sp-4); padding-left: var(--sp-5); font-size: var(--font-sm); color: var(--color-text-muted); list-style: disc; }
   .specs__notes li { margin-bottom: var(--sp-2); }
   .specs__empty { color: var(--color-text-muted); font-style: italic; }
-  @media (max-width: 680px) { .specs__grid { grid-template-columns: 1fr; } }
+  @media (min-width: 640px) { .specs__grid { grid-template-columns: 1fr 1fr; gap: 0 clamp(1.5rem, 4vw, 3rem); } }
 </style>

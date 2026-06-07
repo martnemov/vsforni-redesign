@@ -4,14 +4,16 @@ import { useTranslations, getLang, localizeUrl } from '@/i18n';
 import { mediaUrl } from '@/lib/utils';
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
+const posterUrl = mediaUrl('/uploads/img/start-screen-slider/main-slider.jpg');
+const videoUrl = mediaUrl('/uploads/media/start-slider-2.mp4');
 ---
-<section class="hero">
+<section class="hero" style={`--hero-poster: url('${posterUrl}')`}>
   <div class="hero__media" aria-hidden="true">
     <video
       class="hero__video"
-      src={mediaUrl('/uploads/media/start-slider-2.mp4')}
-      autoplay muted loop playsinline preload="metadata"
-      poster={mediaUrl('/uploads/img/start-screen-slider/main-slider.jpg')}
+      src={videoUrl}
+      autoplay muted loop playsinline preload="none"
+      poster={posterUrl}
     ></video>
     <div class="hero__overlay"></div>
   </div>
@@ -35,20 +37,56 @@ const t = useTranslations(lang);
 </div>
 
 <style>
-  .hero { position: relative; min-height: 92svh; display: flex; align-items: center; color: #fff; overflow: hidden; }
+  .hero {
+    position: relative;
+    min-height: min(600px, 80dvh);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+    /* poster as background so it shows when video is hidden */
+    background: var(--hero-poster) center/cover no-repeat var(--ink-900);
+  }
+
   .hero__media { position: absolute; inset: 0; z-index: 0; }
   .hero__video { width: 100%; height: 100%; object-fit: cover; }
   .hero__overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(27,23,20,.82) 0%, rgba(27,23,20,.55) 55%, rgba(27,23,20,.35) 100%); }
-  .hero__content { position: relative; z-index: 1; padding-block: var(--sp-12); }
+  .hero__content { position: relative; z-index: 1; padding-block: var(--sp-10); }
   .hero__title { font-size: var(--font-4xl); max-width: 18ch; margin-bottom: var(--sp-4); color: #fff; }
   .hero__subtitle { font-size: var(--font-lg); max-width: 46ch; color: rgba(255,255,255,.85); margin-bottom: var(--sp-6); }
   .hero__ctas { display: flex; gap: var(--sp-4); flex-wrap: wrap; }
 
+  /* hide video on mobile — poster (background) remains visible */
+  .hero__video { display: none; }
+  @media (min-width: 768px) {
+    .hero { min-height: 92svh; }
+    .hero__video { display: block; }
+    .hero__content { padding-block: var(--sp-12); }
+  }
+
+  /* respect reduced motion globally */
+  @media (prefers-reduced-motion: reduce) {
+    .hero__video { display: none !important; }
+  }
+
+  /* mobile CTA: stack buttons full-width */
+  @media (max-width: 479px) {
+    .hero__ctas { flex-direction: column; align-items: stretch; }
+    .hero__title { max-width: none; }
+  }
+
   .trust-strip { background: var(--surface); border-bottom: 1px solid var(--color-border); }
-  .trust-strip__inner { display: flex; flex-wrap: wrap; gap: clamp(1rem, 4vw, 3rem); justify-content: space-between; padding-block: var(--sp-4); }
+  .trust-strip__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(.75rem, 3vw, 2rem);
+    padding-block: var(--sp-4);
+  }
   .trust-strip__it { display: inline-flex; align-items: center; gap: .6em; font-size: var(--font-sm); color: var(--color-text-muted); }
-  .trust-strip__it svg { width: 1.2em; height: 1.2em; color: var(--accent); }
+  .trust-strip__it svg { width: 1.2em; height: 1.2em; color: var(--accent); flex-shrink: 0; }
   .trust-strip__it b { color: var(--ink-900); font-weight: 600; }
 
-  @media (max-width: 575px) { .hero { min-height: 88dvh; } .hero__ctas { flex-direction: column; align-items: stretch; } }
+  @media (min-width: 768px) {
+    .trust-strip__inner { grid-template-columns: repeat(4, 1fr); }
+  }
 </style>

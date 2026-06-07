@@ -41,6 +41,28 @@ a { text-decoration: none; transition: color var(--transition); }
 
 section { padding-block: var(--section-py); }
 .catpage { padding-block: var(--sp-6); }
-.page-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--sp-4); --breadcrumbs-py: 0; }
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+  --breadcrumbs-py: 0;
+}
 
-img { height: auto; }
+img, video { max-width: 100%; height: auto; }
+
+/* prevent horizontal overflow */
+body { overflow-x: hidden; }
+
+/* readable long words on narrow screens (cyrillic included) */
+h1, h2, h3, h4, h5, h6, p { overflow-wrap: break-word; }
+
+/* minimum tap target size on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  a, button { min-height: 44px; min-width: 44px; }
+}
+
+/* prevent iOS Safari zoom on input focus */
+input, textarea, select { font-size: max(1rem, 16px); }

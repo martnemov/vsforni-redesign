@@ -24,12 +24,12 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
 <style>
   .leasing { background: var(--ink-900); color: var(--paper); position: relative; overflow: hidden; }
   .leasing::after { content: ""; position: absolute; inset: 0; background: radial-gradient(100% 90% at 100% 0, rgba(224,123,26,.26), transparent 60%); pointer-events: none; }
-  .leasing__inner { position: relative; display: grid; grid-template-columns: 1.3fr .7fr; gap: var(--sp-6); align-items: center; }
-  .leasing__text h2 { color: #fff; font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-4); max-width: 18ch; }
+  .leasing__inner { position: relative; display: grid; grid-template-columns: 1fr; gap: var(--sp-6); align-items: center; }
+  .leasing__text h2 { color: #fff; font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-4); }
   .leasing__text p { color: var(--graphite-300); max-width: 44ch; }
   .leasing__act { display: flex; flex-direction: column; gap: var(--sp-4); align-items: flex-start; }
-  .leasing__phone { color: #fff; font-family: var(--font-mono); font-size: var(--font-base); display: inline-flex; align-items: center; gap: .5em; }
+  .leasing__phone { color: #fff; font-family: var(--font-mono); font-size: var(--font-base); display: inline-flex; align-items: center; gap: .5em; min-height: 44px; }
   .leasing__phone svg { width: 1.05em; height: 1.05em; color: var(--copper-bright); }
   .leasing__phone:hover { color: var(--copper-bright); }
-  @media (max-width: 767px) { .leasing__inner { grid-template-columns: 1fr; } }
+  @media (min-width: 768px) { .leasing__inner { grid-template-columns: 1.3fr .7fr; } .leasing__text h2 { max-width: 18ch; } }
 </style>

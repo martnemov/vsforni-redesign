@@ -25,14 +25,14 @@ const telHref = `tel:${t.phone.replace(/\s|\(|\)|-/g, '')}`;
 
 <style>
   .callback { background: var(--surface); border-top: 1px solid var(--color-border); }
-  .callback__inner { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(2rem, 4vw, 4rem); align-items: center; }
+  .callback__inner { display: grid; grid-template-columns: 1fr; gap: clamp(1.5rem, 4vw, 4rem); align-items: center; }
   .callback__text h2 { font-size: var(--font-2xl); margin: var(--sp-3) 0 var(--sp-4); }
   .callback__text p { color: var(--color-text-muted); margin-bottom: var(--sp-6); max-width: 42ch; }
-  .callback__contacts { display: flex; flex-direction: column; gap: var(--sp-3); padding: var(--sp-6); background: var(--paper-2); border: 1px solid var(--color-border); border-left: 3px solid var(--accent); border-radius: var(--radius-lg); }
-  .callback__phone { font-family: var(--font-display); font-weight: 700; font-size: var(--font-xl); color: var(--ink-900); display: inline-flex; align-items: center; gap: .4em; }
+  .callback__contacts { display: flex; flex-direction: column; gap: var(--sp-3); padding: var(--sp-5); background: var(--paper-2); border: 1px solid var(--color-border); border-left: 3px solid var(--accent); border-radius: var(--radius-lg); }
+  .callback__phone { font-family: var(--font-display); font-weight: 700; font-size: var(--font-xl); color: var(--ink-900); display: inline-flex; align-items: center; gap: .4em; min-height: 44px; }
   .callback__phone svg { width: .9em; height: .9em; color: var(--accent); }
   .callback__phone:hover { color: var(--accent-text); }
-  .callback__email { color: var(--accent-text); font-family: var(--font-mono); font-size: var(--font-sm); }
+  .callback__email { color: var(--accent-text); font-family: var(--font-mono); font-size: var(--font-sm); min-height: 44px; display: inline-flex; align-items: center; }
   .callback__addr { color: var(--color-text-muted); font-family: var(--font-mono); font-size: var(--font-sm); }
-  @media (max-width: 767px) { .callback__inner { grid-template-columns: 1fr; } }
+  @media (min-width: 768px) { .callback__inner { grid-template-columns: 1.2fr .8fr; } .callback__contacts { padding: var(--sp-6); } }
 </style>

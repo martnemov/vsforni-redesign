@@ -24,12 +24,13 @@ const regions = t.regions;
 <style>
   .geography { background: var(--ink-900); color: var(--paper); position: relative; overflow: hidden; }
   .geography::after { content: ""; position: absolute; inset: 0; background: radial-gradient(90% 70% at 90% 0, rgba(224,123,26,.18), transparent 55%); pointer-events: none; }
-  .geography__inner { position: relative; display: grid; grid-template-columns: auto 1fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+  .geography__inner { position: relative; display: grid; grid-template-columns: 1fr; gap: clamp(1.5rem, 4vw, 5rem); align-items: center; }
   .geography__big { font-family: var(--font-display); font-weight: 700; font-size: clamp(5rem, 14vw, 11rem); line-height: .85; color: var(--copper-bright); letter-spacing: -.04em; margin-top: var(--sp-4); }
   .geography__big small { display: block; font-size: var(--font-lg); color: var(--graphite-300); font-weight: 400; letter-spacing: .04em; margin-top: var(--sp-3); font-family: var(--font-mono); text-transform: uppercase; }
   .geography__sub { color: var(--graphite-400); margin-top: var(--sp-4); max-width: 32ch; }
-  .geography__list { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-4) var(--sp-6); }
-  .geography__list li { display: flex; align-items: center; gap: .7em; color: var(--paper); font-size: var(--font-lg); padding-bottom: var(--sp-4); border-bottom: 1px solid var(--graphite-700); }
+  .geography__list { display: grid; grid-template-columns: 1fr; gap: var(--sp-3) var(--sp-6); }
+  .geography__list li { display: flex; align-items: center; gap: .7em; color: var(--paper); font-size: var(--font-lg); padding-bottom: var(--sp-3); border-bottom: 1px solid var(--graphite-700); }
   .geography__list svg { width: 1.1em; height: 1.1em; color: var(--copper-bright); flex: none; }
-  @media (max-width: 767px) { .geography__inner { grid-template-columns: 1fr; } .geography__list { grid-template-columns: 1fr; } }
+  @media (min-width: 480px) { .geography__list { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 768px) { .geography__inner { grid-template-columns: auto 1fr; gap: clamp(2rem, 5vw, 5rem); } .geography__list { gap: var(--sp-4) var(--sp-6); } }
 </style>

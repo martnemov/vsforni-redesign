@@ -58,6 +58,13 @@
   --sp-12: 5rem;     /* 80 */
   --sp-16: 7.5rem;   /* 120 */
 
+  /* --- breakpoints (use as: @media (min-width: var(--bp-md)) — mobile-first) --- */
+  --bp-xs: 360px;
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
   /* --- layout --- */
   --container-max: 1320px;
   --container-pad: clamp(1.25rem, 4vw, 3rem);
