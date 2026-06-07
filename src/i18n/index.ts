@@ -2,11 +2,9 @@ import { t as ru } from './ru';
 import { en } from './en';
 
 export type Lang = 'ru' | 'en';
-export type Dict = typeof ru;
+type Dict = typeof ru;
 
 const dicts: Record<Lang, Dict> = { ru, en: en as unknown as Dict };
-
-export const languages: Record<Lang, string> = { ru: 'RU', en: 'EN' };
 
 export function getLang(locale?: string): Lang {
   return locale === 'en' ? 'en' : 'ru';

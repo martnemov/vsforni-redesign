@@ -6,3 +6,4 @@ logs/*.jsonl
 /.idea
 .mcp.json
 .vercel
+.DS_Store

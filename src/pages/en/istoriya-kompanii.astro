@@ -3,6 +3,7 @@ export const prerender = true;
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/ui/Breadcrumbs.astro';
 import { useTranslations, getLang, localizeUrl } from '../../i18n';
+import { mediaUrl } from '../../lib/utils';
 
 const lang = getLang(Astro.currentLocale);
 const t = useTranslations(lang);
@@ -40,7 +41,7 @@ const stats = [
             <p>{t.historyP3}</p>
           </div>
           <div class="history-aside">
-            <img src="/uploads/img/equip.jpg" alt="Оборудование VS FORNI" loading="lazy" decoding="async" width="560" height="400" />
+            <img src={mediaUrl('/uploads/img/equip.jpg')} alt="Оборудование VS FORNI" loading="lazy" decoding="async" width="560" height="400" />
           </div>
         </div>
 

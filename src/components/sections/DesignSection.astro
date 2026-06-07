@@ -1,12 +1,13 @@
 ---
 import Button from '../ui/Button.astro';
 import { useTranslations, getLang } from '../../i18n';
+import { mediaUrl } from '../../lib/utils';
 const t = useTranslations(getLang(Astro.currentLocale));
 ---
 <section class="design">
   <div class="container design__inner">
     <div class="design__image">
-      <img src="/uploads/img/scheme.png" alt={t.designImageAlt} loading="lazy" decoding="async" width="600" height="400" />
+      <img src={mediaUrl('/uploads/img/scheme.png')} alt={t.designImageAlt} loading="lazy" decoding="async" width="600" height="400" />
     </div>
     <div class="design__text">
       <span class="kicker">{t.design}</span>

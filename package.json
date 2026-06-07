@@ -10,10 +10,8 @@
     "typecheck": "astro check",
     "lint": "eslint src/",
     "format": "prettier --write src/",
-    "phase0": "tsx scripts/phase0-audit.ts",
-    "extract": "tsx scripts/extract.ts",
-    "migrate-media": "tsx scripts/migrate-media.ts",
-    "import-collections": "tsx scripts/import-to-collections.ts"
+    "import-collections": "tsx scripts/import-to-collections.ts",
+    "download-media": "tsx scripts/download-missing-media.ts"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",

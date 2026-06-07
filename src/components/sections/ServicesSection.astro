@@ -1,12 +1,13 @@
 ---
 import { useTranslations, getLang } from '../../i18n';
+import { mediaUrl } from '../../lib/utils';
 const t = useTranslations(getLang(Astro.currentLocale));
 
 const services = [
-  { title: t.service1, text: t.service1Text, img: '/uploads/img/service_01.jpg' },
-  { title: t.service2, text: t.service2Text, img: '/uploads/img/service_02.jpg' },
-  { title: t.service3, text: t.service3Text, img: '/uploads/img/service_03.jpg' },
-  { title: t.service4, text: t.service4Text, img: '/uploads/img/service_04.jpg' },
+  { title: t.service1, text: t.service1Text, img: mediaUrl('/uploads/img/service_01.jpg') },
+  { title: t.service2, text: t.service2Text, img: mediaUrl('/uploads/img/service_02.jpg') },
+  { title: t.service3, text: t.service3Text, img: mediaUrl('/uploads/img/service_03.jpg') },
+  { title: t.service4, text: t.service4Text, img: mediaUrl('/uploads/img/service_04.jpg') },
 ] as const;
 ---
 <section class="services">
